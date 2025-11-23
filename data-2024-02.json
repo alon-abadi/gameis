@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Cogstellation",
+    "SteamID": 2744730,
+    "link": "https://s.team/a/2744730",
+    "demo": false,
+    "ea": false,
+    "release_date": "20 Feb, 2024",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2744730/header_292x136.jpg?t=1709174047",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Spiritfall",
+    "SteamID": 1835240,
+    "link": "https://s.team/a/1835240",
+    "demo": false,
+    "ea": false,
+    "release_date": "28 Feb, 2024",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1835240/header_292x136.jpg?t=1748710100",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

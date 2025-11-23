@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Spirit Oath",
+    "SteamID": 986070,
+    "link": "https://s.team/a/986070",
+    "demo": false,
+    "ea": false,
+    "release_date": "6 Dec, 2021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/986070/header_292x136.jpg?t=1638832291",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Egg King",
+    "SteamID": 1790990,
+    "link": "https://s.team/a/1790990",
+    "demo": false,
+    "ea": false,
+    "release_date": "10 Dec, 2021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1790990/header_292x136.jpg?t=1645525200",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

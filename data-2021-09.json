@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tank Golfing",
+    "SteamID": 1729120,
+    "link": "https://s.team/a/1729120",
+    "demo": false,
+    "ea": false,
+    "release_date": "2 Sep, 2021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1729120/header_292x136.jpg?t=1726309774",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "ANYEK  The Keyboard Puzzle",
+    "SteamID": 1625190,
+    "link": "https://s.team/a/1625190",
+    "demo": true,
+    "ea": false,
+    "release_date": "10 Sep, 2021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1625190/header_292x136.jpg?t=1631297152",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "In Sound Mind",
+    "SteamID": 1119980,
+    "link": "https://s.team/a/1119980",
+    "demo": false,
+    "ea": false,
+    "release_date": "Sep 28, 2021",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1119980/header_292x136.jpg?t=1725488241",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

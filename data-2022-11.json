@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Hansel And Gretel",
+    "SteamID": 2082950,
+    "link": "https://s.team/a/2082950",
+    "demo": false,
+    "ea": false,
+    "release_date": "4 Nov, 2022",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2082950/header_292x136.jpg?t=1685532214",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Plot of the Druid",
+    "SteamID": 1108170,
+    "link": "https://s.team/a/1108170",
+    "demo": false,
+    "ea": false,
+    "release_date": "1 Nov, 2022",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108170/header_292x136.jpg?t=1763491930",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

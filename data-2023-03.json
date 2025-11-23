@@ -1,0 +1,42 @@
+[
+  {
+    "name": "You Are Sick",
+    "SteamID": 2323370,
+    "link": "https://s.team/a/2323370",
+    "demo": false,
+    "ea": false,
+    "release_date": "10 Mar, 2023",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2323370/header_292x136.jpg?t=1680162173",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Rune Break",
+    "SteamID": 2100040,
+    "link": "https://s.team/a/2100040",
+    "demo": false,
+    "ea": false,
+    "release_date": "25 Mar, 2023",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2100040/header_292x136.jpg?t=1679812310",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Prison Life 2",
+    "SteamID": 2125160,
+    "link": "https://s.team/a/2125160",
+    "demo": false,
+    "ea": false,
+    "release_date": "30 Mar, 2023",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2125160/header_292x136.jpg?t=1704139517",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Netherguild",
+    "SteamID": 1464220,
+    "link": "https://s.team/a/1464220",
+    "demo": false,
+    "ea": false,
+    "release_date": "27 Mar, 2023",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1464220/header_292x136.jpg?t=1762250673",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

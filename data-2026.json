@@ -1,0 +1,52 @@
+[
+  {
+    "name": "SkyRunner",
+    "SteamID": 3902490,
+    "link": "https://s.team/a/3902490",
+    "demo": true,
+    "ea": false,
+    "release_date": "2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3902490/d288a91e33b1dc0a3a7d60213d0502e71ac5ed58/header_292x136.jpg?t=1763733478",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Hextalia",
+    "SteamID": 3734940,
+    "link": "https://s.team/a/3734940",
+    "demo": true,
+    "ea": false,
+    "release_date": "2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3734940/ae7f75ce104c5e5382740f58e79ffd5aa40dd001/header_292x136.jpg?t=1763502245",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Alpha Nomos",
+    "SteamID": 2529960,
+    "link": "https://s.team/a/2529960",
+    "demo": true,
+    "ea": false,
+    "release_date": "2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2529960/7b9345b082bc036b867471811e0ce0a3b0bfcb52/header_292x136.jpg?t=1763049404",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Dead Watch",
+    "SteamID": 3464670,
+    "link": "https://s.team/a/3464670",
+    "demo": false,
+    "ea": false,
+    "release_date": "2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3464670/f5cfa8f0fd0fa8a45cae7eee8d9a74d87591a9c6/header_292x136.jpg?t=1762691262",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Breaking News",
+    "SteamID": 3541940,
+    "link": "https://s.team/a/3541940",
+    "demo": false,
+    "ea": false,
+    "release_date": "2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3541940/ee4318a2cc790dbfa5da22501cd6d97e3976d878/header_292x136.jpg?t=1749924566",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

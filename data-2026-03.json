@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Eternal Afternoon",
+    "SteamID": 3924170,
+    "link": "https://s.team/a/3924170",
+    "demo": false,
+    "ea": false,
+    "release_date": "March 2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3924170/2efb0bf76d9f520b49a56149955bb60a35dd79f0/header_292x136.jpg?t=1761770601",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Everhome",
+    "SteamID": 3936940,
+    "link": "https://s.team/a/3936940",
+    "demo": false,
+    "ea": false,
+    "release_date": "Q1 2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3936940/50f6bb3dbdb6c2e6f387f988bce90d95e9b25824/header_292x136.jpg?t=1762477994",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Hideous",
+    "SteamID": 3716590,
+    "link": "https://s.team/a/3716590",
+    "demo": true,
+    "ea": false,
+    "release_date": "Q1 2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3716590/cbb0a14c21bc73884bc5390f01b581b5063ec718/header_292x136.jpg?t=1763677540",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Monster Punk",
+    "SteamID": 3506750,
+    "link": "https://s.team/a/3506750",
+    "demo": false,
+    "ea": false,
+    "release_date": "Q1 2026",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3506750/header_292x136.jpg?t=1748340660",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]

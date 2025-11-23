@@ -1,0 +1,32 @@
+[
+  {
+    "name": "I Come In Peace",
+    "SteamID": 3141860,
+    "link": "https://s.team/a/3141860",
+    "demo": true,
+    "ea": false,
+    "release_date": "16 Apr, 2025",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141860/header_292x136.jpg?t=1755420831",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Nautical Survival",
+    "SteamID": 2860990,
+    "link": "https://s.team/a/2860990",
+    "demo": true,
+    "ea": false,
+    "release_date": "9 Apr, 2025",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2860990/efd5c0e9a8f9bba5263465c5d1d254f75c931d8c/header_292x136.jpg?t=1754422327",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  },
+  {
+    "name": "Fur and Fables",
+    "SteamID": 2875810,
+    "link": "https://s.team/a/2875810",
+    "demo": false,
+    "ea": false,
+    "release_date": "3 Apr, 2025",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2875810/header_292x136.jpg?t=1743706288",
+    "updated_at": "2025-11-23T21:52:53.432Z"
+  }
+]
