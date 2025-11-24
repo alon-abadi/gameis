@@ -8,8 +8,14 @@ const {
 } = require("./settings");
 
 const DATA_DIR = __dirname;
+const OUTPUT_DIR = path.join(DATA_DIR, "data");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "data.js");
 const AVOID_FILE = path.join(DATA_DIR, "avoid-list.txt");
-const OUTPUT_FILE = path.join(DATA_DIR, "data.js");
+
+// make sure /data exists
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR);
+}
 
 // ---- helpers ----
 
