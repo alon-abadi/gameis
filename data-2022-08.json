@@ -1,15 +1,5 @@
 [
   {
-    "name": "Outerverse",
-    "SteamID": 1293540,
-    "link": "https://s.team/a/1293540",
-    "demo": false,
-    "ea": false,
-    "release_date": "29 Aug, 2022",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1293540/header_292x136.jpg?t=1734718459",
-    "updated_at": "2025-11-23T21:52:53.432Z"
-  },
-  {
     "name": "Lost in Play",
     "SteamID": 1328840,
     "link": "https://s.team/a/1328840",
@@ -17,6 +7,6 @@
     "ea": false,
     "release_date": "10 Aug, 2022",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328840/header_292x136.jpg?t=1758210737",
-    "updated_at": "2025-11-23T21:52:53.432Z"
+    "updated_at": "2025-12-06T18:44:48.192Z"
   }
 ]

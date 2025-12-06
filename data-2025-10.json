@@ -7,7 +7,7 @@
     "ea": false,
     "release_date": "3 Oct, 2025",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3566940/bfd5992c892413149505d9dfaae80c686b8a6997/header_292x136.jpg?t=1762292594",
-    "updated_at": "2025-11-23T21:52:53.432Z"
+    "updated_at": "2025-12-06T18:44:48.192Z"
   },
   {
     "name": "Days Without Incident",
@@ -15,9 +15,9 @@
     "link": "https://s.team/a/3593490",
     "demo": false,
     "ea": false,
-    "release_date": "22 Oct, 2025",
+    "release_date": "Oct 22, 2025",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3593490/f4a87daab55bb06e6b407b4f8295793ea40b8839/header_292x136.jpg?t=1761162408",
-    "updated_at": "2025-11-23T21:52:53.432Z"
+    "updated_at": "2025-12-06T18:44:48.192Z"
   },
   {
     "name": "Pick 100 Bones",
@@ -27,46 +27,6 @@
     "ea": false,
     "release_date": "1 Oct, 2025",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3846450/280a13cbee1d14c696bff1476e0b9ee48047b36a/header_292x136.jpg?t=1759570315",
-    "updated_at": "2025-11-23T21:52:53.432Z"
-  },
-  {
-    "name": "Dead Oil",
-    "SteamID": 3669370,
-    "link": "https://s.team/a/3669370",
-    "demo": true,
-    "ea": false,
-    "release_date": "17 Oct, 2025",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669370/2c8e9fa48deaee5fa1988cff3c695d452cfaf418/header_292x136.jpg?t=1762875330",
-    "updated_at": "2025-11-23T21:52:53.432Z"
-  },
-  {
-    "name": "Slingbot Survivors",
-    "SteamID": 3432800,
-    "link": "https://s.team/a/3432800",
-    "demo": true,
-    "ea": false,
-    "release_date": "20 Oct, 2025",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3432800/866e9178b5c6115ea72c3f7bed875289388a197e/header_292x136.jpg?t=1760967179",
-    "updated_at": "2025-11-23T21:52:53.432Z"
-  },
-  {
-    "name": "Riddlewood Manor",
-    "SteamID": 3019550,
-    "link": "https://s.team/a/3019550",
-    "demo": false,
-    "ea": false,
-    "release_date": "22 Oct, 2025",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3019550/27d41245a96bb34956c3be70bf0eb678ddf02781/header_292x136.jpg?t=1763025831",
-    "updated_at": "2025-11-23T21:52:53.432Z"
-  },
-  {
-    "name": "CYCLE",
-    "SteamID": 1947160,
-    "link": "https://s.team/a/1947160",
-    "demo": true,
-    "ea": false,
-    "release_date": "6 Oct, 2025",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1947160/54558bf6da9d9309e69ad7e78914f38e021c2592/header_292x136.jpg?t=1759761184",
-    "updated_at": "2025-11-23T21:52:53.432Z"
+    "updated_at": "2025-12-06T18:44:48.192Z"
   }
 ]
