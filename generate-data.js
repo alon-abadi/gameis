@@ -120,19 +120,15 @@ function main() {
 
     const gid = String(game.SteamID);
 
-    // Add to byYear (nested by month)
+    // Add to byYear
     const yearKey = year != null ? String(year) : "other";
-    const monthKey = month != null ? String(month) : "unknown";
     if (!byYear[yearKey]) {
-      byYear[yearKey] = {};
+      byYear[yearKey] = [];
       byYearIds[yearKey] = new Set();
     }
     if (!byYearIds[yearKey].has(gid)) {
       byYearIds[yearKey].add(gid);
-      if (!byYear[yearKey][monthKey]) {
-        byYear[yearKey][monthKey] = [];
-      }
-      byYear[yearKey][monthKey].push(game);
+      byYear[yearKey].push(game);
     }
 
     // Classify into new/upcoming/other (deduplicated)
@@ -165,18 +161,7 @@ function main() {
 
   const byYearSorted = {};
   for (const y of sortedYears) {
-    const monthObj = byYear[y];
-    const sortedMonths = Object.keys(monthObj)
-      .filter((k) => k !== "unknown")
-      .sort((a, b) => Number(a) - Number(b));
-    const monthSorted = {};
-    for (const m of sortedMonths) {
-      monthSorted[m] = monthObj[m];
-    }
-    if (monthObj.unknown) {
-      monthSorted.unknown = monthObj.unknown;
-    }
-    byYearSorted[y] = monthSorted;
+    byYearSorted[y] = byYear[y];
   }
   if (byYear.other) {
     byYearSorted.other = byYear.other;

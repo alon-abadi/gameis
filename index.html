@@ -228,23 +228,59 @@
         return;
       }
 
-      var MONTHS = ["", "January", "February", "March", "April", "May", "June",
+      var MONTH_NAMES = ["", "January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"];
+      var MONTH_ABBR = { Jan:1, Feb:2, Mar:3, Apr:4, May:5, Jun:6,
+        Jul:7, Aug:8, Sep:9, Oct:10, Nov:11, Dec:12 };
+      var MONTH_FULL = { January:1, February:2, March:3, April:4, May:5, June:6,
+        July:7, August:8, September:9, October:10, November:11, December:12 };
 
       var yearNav = document.getElementById("year-nav");
       var gameList = document.getElementById("game-list");
       var gameCountEl = document.getElementById("game-count");
+
+      // Parse month from release_date string. Returns 1-12 or 0 for unknown.
+      function parseMonth(dateStr) {
+        if (!dateStr) return 0;
+        // "6 Feb, 2025" or "17 Mar, 2025"
+        var m = dateStr.match(/(\d{1,2})\s+(\w{3}),\s+\d{4}/);
+        if (m) return MONTH_ABBR[m[2]] || 0;
+        // "Feb 6, 2025"
+        m = dateStr.match(/(\w{3})\s+\d{1,2},\s+\d{4}/);
+        if (m) return MONTH_ABBR[m[1]] || 0;
+        // "February 2026"
+        m = dateStr.match(/^(\w+)\s+\d{4}$/);
+        if (m) return MONTH_FULL[m[1]] || 0;
+        return 0;
+      }
+
+      // Group a flat array of games into { monthNum: [games] }, sorted by month
+      function groupByMonth(games) {
+        var buckets = {};
+        for (var i = 0; i < games.length; i++) {
+          var mo = parseMonth(games[i].release_date);
+          var key = mo || "unknown";
+          if (!buckets[key]) buckets[key] = [];
+          buckets[key].push(games[i]);
+        }
+        // Sort month keys numerically, "unknown" last
+        var sorted = Object.keys(buckets)
+          .filter(function(k) { return k !== "unknown"; })
+          .sort(function(a, b) { return Number(a) - Number(b); });
+        if (buckets.unknown) sorted.push("unknown");
+        var result = [];
+        for (var i = 0; i < sorted.length; i++) {
+          result.push({ key: sorted[i], games: buckets[sorted[i]] });
+        }
+        return result;
+      }
 
       var yearKeys = Object.keys(DATA.byYear);
 
       // Count total games
       var total = 0;
       for (var i = 0; i < yearKeys.length; i++) {
-        var months = DATA.byYear[yearKeys[i]];
-        var mKeys = Object.keys(months);
-        for (var j = 0; j < mKeys.length; j++) {
-          total += months[mKeys[j]].length;
-        }
+        total += DATA.byYear[yearKeys[i]].length;
       }
       gameCountEl.textContent = total;
 
@@ -283,39 +319,33 @@
       function renderYear(yearKey) {
         gameList.innerHTML = "";
 
-        var months = DATA.byYear[yearKey];
-        if (!months) return;
+        var games = DATA.byYear[yearKey];
+        if (!games || games.length === 0) {
+          gameList.innerHTML = '<p class="empty-state">No games for this year.</p>';
+          return;
+        }
 
-        var mKeys = Object.keys(months);
-        var hasGames = false;
+        var monthGroups = groupByMonth(games);
 
-        for (var i = 0; i < mKeys.length; i++) {
-          var games = months[mKeys[i]];
-          if (games.length === 0) continue;
-          hasGames = true;
-
+        for (var i = 0; i < monthGroups.length; i++) {
+          var group = monthGroups[i];
           var section = document.createElement("section");
           section.className = "month-section";
 
           var header = document.createElement("h2");
           header.className = "month-header";
-          var monthNum = parseInt(mKeys[i], 10);
-          header.textContent = mKeys[i] === "unknown" ? "Date TBD" : (MONTHS[monthNum] || mKeys[i]);
+          header.textContent = group.key === "unknown" ? "Date TBD" : (MONTH_NAMES[Number(group.key)] || group.key);
           section.appendChild(header);
 
           var grid = document.createElement("div");
           grid.className = "month-games";
 
-          for (var j = 0; j < games.length; j++) {
-            grid.appendChild(createCard(games[j]));
+          for (var j = 0; j < group.games.length; j++) {
+            grid.appendChild(createCard(group.games[j]));
           }
 
           section.appendChild(grid);
           gameList.appendChild(section);
-        }
-
-        if (!hasGames) {
-          gameList.innerHTML = '<p class="empty-state">No games for this year.</p>';
         }
       }
 
