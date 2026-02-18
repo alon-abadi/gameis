@@ -315,7 +315,6 @@ function parseReleaseDate(dateStr) {
 function generateReleases(avoidSet) {
   ensureDir(RELEASES_DIR);
 
-  const currentYear = new Date().getFullYear();
   const gameFiles = fs
     .readdirSync(GAMEDATA_DIR)
     .filter((f) => f.endsWith(".json"));
@@ -338,14 +337,26 @@ function generateReleases(avoidSet) {
       continue;
     }
 
-    // Skip past years that already have a releases file
-    if (parsed.year < currentYear) {
-      const existingFile = path.join(RELEASES_DIR, `${parsed.year}.json`);
-      if (fs.existsSync(existingFile)) continue;
+    const yearKey = String(parsed.year);
+    if (!byYear[yearKey]) {
+      // Seed from existing file so we preserve previously committed data
+      const existingFile = path.join(RELEASES_DIR, `${yearKey}.json`);
+      const existing = loadJson(existingFile);
+      if (existing) {
+        byYear[yearKey] = { _ids: new Set(), ...existing };
+        // Index existing IDs to avoid duplicates
+        for (const [, entries] of Object.entries(existing)) {
+          if (!Array.isArray(entries)) continue;
+          for (const e of entries) byYear[yearKey]._ids.add(e.SteamID);
+        }
+      } else {
+        byYear[yearKey] = { _ids: new Set() };
+      }
     }
 
-    const yearKey = String(parsed.year);
-    if (!byYear[yearKey]) byYear[yearKey] = {};
+    // Skip if already present in this year
+    if (byYear[yearKey]._ids.has(game.SteamID)) continue;
+    byYear[yearKey]._ids.add(game.SteamID);
 
     const monthKey = parsed.month ? String(parsed.month) : "unknown";
     if (!byYear[yearKey][monthKey]) byYear[yearKey][monthKey] = [];
@@ -355,7 +366,7 @@ function generateReleases(avoidSet) {
     byYear[yearKey][monthKey].push(entry);
   }
 
-  // Write year files (only current + future years, or any year without an existing file)
+  // Write year files
   for (const [yearStr, months] of Object.entries(byYear)) {
     const yearFile = path.join(RELEASES_DIR, `${yearStr}.json`);
     // Build full structure with all 12 months + unknown
