@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-02-18T20:03:23.964Z",
+  "last_sync": "2026-02-18T21:24:20.613Z",
   "games": {
     "331210": {
       "last_fetched": "2026-02-18T19:54:37.279Z",
@@ -97,12 +97,20 @@
       "last_fetched": "2026-02-18T19:54:32.159Z",
       "released": false
     },
+    "1029650": {
+      "last_fetched": "2026-02-18T21:24:20.055Z",
+      "released": true
+    },
     "1076750": {
       "last_fetched": "2026-02-18T19:54:38.761Z",
       "released": true
     },
     "1079450": {
       "last_fetched": "2026-02-18T19:54:35.026Z",
+      "released": true
+    },
+    "1092950": {
+      "last_fetched": "2026-02-18T21:24:20.613Z",
       "released": true
     },
     "1108170": {
@@ -656,6 +664,10 @@
     "3516100": {
       "last_fetched": "2026-02-18T19:53:41.307Z",
       "released": false
+    },
+    "3531690": {
+      "last_fetched": "2026-02-18T21:24:20.301Z",
+      "released": true
     },
     "3539330": {
       "last_fetched": "2026-02-18T19:53:57.245Z",
