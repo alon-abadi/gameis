@@ -13,6 +13,7 @@ const GAMEDATA_DIR = path.join(BASE_DIR, "gamedata");
 const RELEASES_DIR = path.join(BASE_DIR, "releases");
 const TRACKING_FILE = path.join(BASE_DIR, "curator-tracking.json");
 const AVOID_FILE = path.join(BASE_DIR, "avoid-list.txt");
+const EXTRA_IDS_FILE = path.join(BASE_DIR, "extra-curator-ids.txt");
 
 // ---- utilities ----
 
@@ -74,6 +75,24 @@ function loadAvoidList() {
   );
 }
 
+// ---- extra IDs (games the AJAX endpoint drops, e.g. non-Latin names) ----
+
+function loadExtraIds() {
+  if (!fs.existsSync(EXTRA_IDS_FILE)) return new Set();
+  const raw = fs.readFileSync(EXTRA_IDS_FILE, "utf8");
+  return new Set(
+    raw
+      .split(/[,\s]+/)
+      .map((s) => s.trim())
+      .filter(Boolean)
+  );
+}
+
+function saveExtraIds(idSet) {
+  const sorted = [...idSet].sort((a, b) => Number(a) - Number(b));
+  fs.writeFileSync(EXTRA_IDS_FILE, sorted.join(",") + "\n", "utf8");
+}
+
 // ---- tracking ----
 
 function loadTracking() {
@@ -122,6 +141,22 @@ async function fetchAllCuratorAppIds() {
     `Found ${allIds.length} games on curator (total_count: ${totalCount})`
   );
   return allIds;
+}
+
+async function fetchCuratorPageHtml() {
+  const url = `https://store.steampowered.com/curator/${CURATOR_ID}-${CURATOR_SLUG}/`;
+  const body = await httpsGet(url);
+  const appIds = [];
+  const seen = new Set();
+  const regex = /data-ds-appid="(\d+)"/g;
+  let match;
+  while ((match = regex.exec(body)) !== null) {
+    if (!seen.has(match[1])) {
+      seen.add(match[1]);
+      appIds.push(match[1]);
+    }
+  }
+  return appIds;
 }
 
 // ---- determine what to fetch ----
@@ -356,11 +391,33 @@ async function main() {
   // Fetch curator game list
   console.log("\n--- Fetching curator game list ---");
   const curatorAppIds = await fetchAllCuratorAppIds();
+  const ajaxSet = new Set(curatorAppIds);
+
+  // Scrape main curator page to catch games the AJAX endpoint drops
+  // (Steam's pagination silently excludes games with non-Latin names)
+  console.log("\n--- Checking curator page for extra games ---");
+  const pageAppIds = await fetchCuratorPageHtml();
+  const newExtras = pageAppIds.filter((id) => !ajaxSet.has(id));
+
+  // Merge with previously discovered extras
+  const extraIds = loadExtraIds();
+  for (const id of newExtras) extraIds.add(id);
+  if (newExtras.length > 0) {
+    console.log(`Discovered ${newExtras.length} new extra game(s) from curator page`);
+    saveExtraIds(extraIds);
+  }
+
+  // Combine all sources
+  const allExtras = [...extraIds].filter((id) => !ajaxSet.has(id));
+  const allAppIds = [...curatorAppIds, ...allExtras];
+  if (allExtras.length > 0) {
+    console.log(`Including ${allExtras.length} extra game(s) from ${path.basename(EXTRA_IDS_FILE)}`);
+  }
 
   // Determine what needs fetching
   console.log("\n--- Determining games to fetch ---");
-  const toFetch = getGamesToFetch(curatorAppIds, tracking, avoidSet);
-  console.log(`Games to fetch: ${toFetch.length} of ${curatorAppIds.length}`);
+  const toFetch = getGamesToFetch(allAppIds, tracking, avoidSet);
+  console.log(`Games to fetch: ${toFetch.length} of ${allAppIds.length}`);
 
   // Fetch app details
   if (toFetch.length > 0) {
