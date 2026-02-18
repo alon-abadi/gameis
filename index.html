@@ -178,12 +178,6 @@
 
     footer a:hover { text-decoration: underline; }
 
-    .footer-credits {
-      margin-top: 12px;
-      padding-top: 12px;
-      border-top: 1px solid var(--border);
-    }
-
     .footer-links {
       display: flex;
       justify-content: center;
@@ -208,17 +202,14 @@
   <main id="game-list"></main>
 
   <footer>
-    <p>Data from <a href="https://store.steampowered.com/curator/2728897" target="_blank" rel="noopener">Ping 972 Steam Curator</a></p>
-    <p><span id="game-count"></span> games tracked</p>
-    <div class="footer-credits">
-      <p>Created by Alon Abadi</p>
-      <div class="footer-links">
-        <a href="https://www.patreon.com/c/indiegamescoil" target="_blank" rel="noopener">Support on Patreon</a>
-        <a href="https://whatsapp.com/channel/0029Vb7JvYf17Emr2qDLEX41" target="_blank" rel="noopener">WhatsApp Channel</a>
-        <a href="https://www.youtube.com/@ototo3" target="_blank" rel="noopener">YouTube</a>
-        <a href="https://indiegames.co.il/" target="_blank" rel="noopener">Newsletter</a>
-      </div>
+    <p>Created by Alon Abadi</p>
+    <div class="footer-links">
+      <a href="https://www.patreon.com/c/indiegamescoil" target="_blank" rel="noopener">Support on Patreon</a>
+      <a href="https://whatsapp.com/channel/0029Vb7JvYf17Emr2qDLEX41" target="_blank" rel="noopener">WhatsApp Channel</a>
+      <a href="https://www.youtube.com/@ototo3" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://indiegames.co.il/" target="_blank" rel="noopener">Newsletter</a>
     </div>
+    <p>Data from <a href="https://store.steampowered.com/curator/2728897" target="_blank" rel="noopener">Ping 972 Steam Curator</a></p>
   </footer>
 
   <script src="data/data.js"></script>
@@ -239,7 +230,7 @@
 
       var yearNav = document.getElementById("year-nav");
       var gameList = document.getElementById("game-list");
-      var gameCountEl = document.getElementById("game-count");
+
 
       // Parse month from release_date string. Returns 1-12 or 0 for unknown.
       function parseMonth(dateStr) {
@@ -284,8 +275,6 @@
       for (var i = 0; i < yearKeys.length; i++) {
         total += DATA.byYear[yearKeys[i]].length;
       }
-      gameCountEl.textContent = total;
-
       // Pick default year
       var currentYear = new Date().getFullYear().toString();
       var defaultYear = yearKeys.indexOf(currentYear) !== -1 ? currentYear : yearKeys[yearKeys.length - 1];
