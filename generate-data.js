@@ -4,15 +4,15 @@ const path = require("path");
 const {
   NEW_PAST_MONTHS,
   UPCOMING_FUTURE_MONTHS,
-  ID_FIELD,
 } = require("./settings");
 
-const DATA_DIR = __dirname;
-const OUTPUT_DIR = path.join(DATA_DIR, "data");
+const BASE_DIR = __dirname;
+const GAMEDATA_DIR = path.join(BASE_DIR, "gamedata");
+const RELEASES_DIR = path.join(BASE_DIR, "releases");
+const OUTPUT_DIR = path.join(BASE_DIR, "data");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "data.js");
-const AVOID_FILE = path.join(DATA_DIR, "avoid-list.txt");
+const AVOID_FILE = path.join(BASE_DIR, "avoid-list.txt");
 
-// make sure /data exists
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR);
 }
@@ -31,23 +31,6 @@ function loadAvoidList() {
   return new Set(ids);
 }
 
-function getYearMonthFromFilename(filename) {
-  // matches data-YYYY.json or data-YYYY-MM.json
-  const m = /^data-(\d{4})(?:-(\d{2}))?\.json$/.exec(filename);
-  if (!m) return null;
-  const year = parseInt(m[1], 10);
-  const month = m[2] ? parseInt(m[2], 10) : null; // null for year-only
-  return { year, month };
-}
-
-function getGameId(game) {
-  if (!game) return null;
-  if (ID_FIELD && game[ID_FIELD] != null) return String(game[ID_FIELD]);
-  if (game.id != null) return String(game.id);
-  if (game.SteamID != null) return String(game.SteamID);
-  return null;
-}
-
 // month diff relative to "now", working in UTC for consistency
 const now = new Date();
 const nowYear = now.getUTCFullYear();
@@ -57,119 +40,117 @@ function monthDiff(year, month) {
   return (year - nowYear) * 12 + (month - nowMonth);
 }
 
-// Add game to byYear[yearKey] with deduplication
-const byYear = {};
-const byYearIds = {};
+function loadGamedataMap() {
+  const map = new Map();
+  const files = fs.readdirSync(GAMEDATA_DIR).filter((f) => f.endsWith(".json"));
+  for (const file of files) {
+    try {
+      const raw = fs.readFileSync(path.join(GAMEDATA_DIR, file), "utf8");
+      const game = JSON.parse(raw);
+      map.set(String(game.SteamID), game);
+    } catch (err) {
+      console.error(`Failed to read/parse gamedata/${file}:`, err.message);
+    }
+  }
+  return map;
+}
 
-function addToYear(yearKey, game, idOverride = null) {
-  if (!byYear[yearKey]) {
-    byYear[yearKey] = [];
-    byYearIds[yearKey] = new Set();
+function loadReleasesSchedule() {
+  const schedule = [];
+  const files = fs.readdirSync(RELEASES_DIR).filter((f) => f.endsWith(".json"));
+
+  for (const file of files) {
+    let data;
+    try {
+      const raw = fs.readFileSync(path.join(RELEASES_DIR, file), "utf8");
+      data = JSON.parse(raw);
+    } catch (err) {
+      console.error(`Failed to read/parse releases/${file}:`, err.message);
+      continue;
+    }
+
+    if (file === "upcoming.json") {
+      for (const entry of data) {
+        schedule.push({ steamId: String(entry.SteamID), year: null, month: null });
+      }
+      continue;
+    }
+
+    const yearMatch = /^(\d{4})\.json$/.exec(file);
+    if (!yearMatch) {
+      console.warn(`Unexpected file in releases/: ${file}, skipping`);
+      continue;
+    }
+    const year = parseInt(yearMatch[1], 10);
+
+    for (const [monthKey, entries] of Object.entries(data)) {
+      const month = monthKey === "unknown" ? null : parseInt(monthKey, 10);
+      for (const entry of entries) {
+        schedule.push({ steamId: String(entry.SteamID), year, month });
+      }
+    }
   }
-  const gid = idOverride || getGameId(game) || JSON.stringify(game);
-  if (!byYearIds[yearKey].has(gid)) {
-    byYearIds[yearKey].add(gid);
-    byYear[yearKey].push(game);
-  }
+
+  return schedule;
 }
 
 // ---- main ----
 
 function main() {
   const avoidIds = loadAvoidList();
-
-  const files = fs
-    .readdirSync(DATA_DIR)
-    .filter((f) => f.startsWith("data-") && f.endsWith(".json"));
+  const gamedataMap = loadGamedataMap();
+  const schedule = loadReleasesSchedule();
 
   const newGames = [];
   const upcomingGames = [];
   const otherGames = [];
 
-  // prevent duplicates across the three main arrays
+  const byYear = {};
+  const byYearIds = {};
   const classifiedIds = new Set();
 
-  function classifyGame(game, yearMonthInfo, sourceFile) {
-    const gid = getGameId(game);
-    // Skip avoided
-    if (gid && avoidIds.has(gid)) return;
+  for (const { steamId, year, month } of schedule) {
+    if (avoidIds.has(steamId)) continue;
 
-    // Always add to yearly map if we know year, or to "other" if not
-    if (sourceFile === "data-other.json") {
-      addToYear("other", game, gid);
-      // and classification: they go to otherGames (no date)
-      if (gid && classifiedIds.has(gid)) return;
-      otherGames.push(game);
-      if (gid) classifiedIds.add(gid);
-      return;
+    const game = gamedataMap.get(steamId);
+    if (!game) {
+      console.warn(`SteamID ${steamId} in releases but not in gamedata, skipping`);
+      continue;
     }
 
-    if (yearMonthInfo) {
-      const { year, month } = yearMonthInfo;
-      const yearKey = String(year);
+    const gid = String(game.SteamID);
 
-      addToYear(yearKey, game, gid);
+    // Add to byYear
+    const yearKey = year != null ? String(year) : "other";
+    if (!byYear[yearKey]) {
+      byYear[yearKey] = [];
+      byYearIds[yearKey] = new Set();
+    }
+    if (!byYearIds[yearKey].has(gid)) {
+      byYearIds[yearKey].add(gid);
+      byYear[yearKey].push(game);
+    }
 
-      // if already classified from another file, skip re-classifying
-      if (gid && classifiedIds.has(gid)) return;
+    // Classify into new/upcoming/other (deduplicated)
+    if (classifiedIds.has(gid)) continue;
+    classifiedIds.add(gid);
 
-      // If month missing (data-YYYY.json), assume June for rough placement
-      const effectiveMonth = month || 6;
-      const diff = monthDiff(year, effectiveMonth);
+    if (year == null) {
+      otherGames.push(game);
+      continue;
+    }
 
-      // New: from the past N months including current month
-      // e.g. N=3 → diff in [-2, 0]
-      const minNewDiff = -(NEW_PAST_MONTHS - 1);
+    // If month unknown, assume June for rough placement
+    const effectiveMonth = month || 6;
+    const diff = monthDiff(year, effectiveMonth);
+    const minNewDiff = -(NEW_PAST_MONTHS - 1);
 
-      if (diff <= 0 && diff >= minNewDiff) {
-        newGames.push(game);
-      } else if (diff >= 1 && diff <= UPCOMING_FUTURE_MONTHS) {
-        upcomingGames.push(game);
-      } else {
-        otherGames.push(game);
-      }
-
-      if (gid) classifiedIds.add(gid);
+    if (diff <= 0 && diff >= minNewDiff) {
+      newGames.push(game);
+    } else if (diff >= 1 && diff <= UPCOMING_FUTURE_MONTHS) {
+      upcomingGames.push(game);
     } else {
-      // No year info and not data-other → just dump to otherGames
-      if (gid && classifiedIds.has(gid)) return;
       otherGames.push(game);
-      if (gid) classifiedIds.add(gid);
-    }
-  }
-
-  for (const file of files) {
-    const fullPath = path.join(DATA_DIR, file);
-
-    let data;
-    try {
-      const raw = fs.readFileSync(fullPath, "utf8");
-      data = JSON.parse(raw);
-    } catch (err) {
-      console.error(`Failed to read/parse ${file}:`, err.message);
-      continue;
-    }
-
-    if (!Array.isArray(data)) {
-      console.error(`File ${file} does not contain a JSON array, skipping`);
-      continue;
-    }
-
-    if (file === "data-other.json") {
-      for (const game of data) {
-        classifyGame(game, null, "data-other.json");
-      }
-      continue;
-    }
-
-    const ym = getYearMonthFromFilename(file);
-    if (!ym) {
-      console.warn(`File ${file} didn't match data-YYYY[-MM].json pattern, skipping`);
-      continue;
-    }
-
-    for (const game of data) {
-      classifyGame(game, ym, file);
     }
   }
 
@@ -206,6 +187,10 @@ function main() {
 
   fs.writeFileSync(OUTPUT_FILE, jsContent, "utf8");
   console.log(`Wrote ${OUTPUT_FILE}`);
+  console.log(`  newGames: ${newGames.length}`);
+  console.log(`  upcomingGames: ${upcomingGames.length}`);
+  console.log(`  otherGames: ${otherGames.length}`);
+  console.log(`  byYear keys: ${Object.keys(byYearSorted).join(", ")}`);
 }
 
 main();
