@@ -1,0 +1,104 @@
+{
+  "1": [
+    {
+      "SteamID": 1891600,
+      "name": "Human or Not",
+      "release_date": "20 Jan, 2023"
+    },
+    {
+      "SteamID": 2077310,
+      "name": "GogMagog",
+      "release_date": "31 Jan, 2023"
+    }
+  ],
+  "2": [
+    {
+      "SteamID": 2259340,
+      "name": "Don't Wake God",
+      "release_date": "21 Feb, 2023"
+    }
+  ],
+  "3": [
+    {
+      "SteamID": 1464220,
+      "name": "Netherguild",
+      "release_date": "27 Mar, 2023"
+    },
+    {
+      "SteamID": 2100040,
+      "name": "Rune Break",
+      "release_date": "25 Mar, 2023"
+    },
+    {
+      "SteamID": 2125160,
+      "name": "Prison Life 2",
+      "release_date": "30 Mar, 2023"
+    },
+    {
+      "SteamID": 2323370,
+      "name": "You Are Sick",
+      "release_date": "10 Mar, 2023"
+    }
+  ],
+  "4": [
+    {
+      "SteamID": 1818610,
+      "name": "Karagon (Survival Robot Riding FPS)",
+      "release_date": "17 Apr, 2023"
+    }
+  ],
+  "5": [],
+  "6": [
+    {
+      "SteamID": 2065840,
+      "name": "TROUBLE JUICE",
+      "release_date": "19 Jun, 2023"
+    }
+  ],
+  "7": [
+    {
+      "SteamID": 1293300,
+      "name": "Space Cats Tactics",
+      "release_date": "24 Jul, 2023"
+    },
+    {
+      "SteamID": 2236300,
+      "name": "Grand Emprise: Time Travel Survival",
+      "release_date": "27 Jul, 2023"
+    }
+  ],
+  "8": [
+    {
+      "SteamID": 2333760,
+      "name": "Marblous",
+      "release_date": "1 Aug, 2023"
+    },
+    {
+      "SteamID": 2496440,
+      "name": "Turncoat Chronicle",
+      "release_date": "3 Aug, 2023"
+    }
+  ],
+  "9": [],
+  "10": [],
+  "11": [
+    {
+      "SteamID": 2414500,
+      "name": "Limos' Lair",
+      "release_date": "7 Nov, 2023"
+    },
+    {
+      "SteamID": 2680810,
+      "name": "Incarnation",
+      "release_date": "30 Nov, 2023"
+    }
+  ],
+  "12": [
+    {
+      "SteamID": 1700300,
+      "name": "World Warfare & Economics",
+      "release_date": "20 Dec, 2023"
+    }
+  ],
+  "unknown": []
+}

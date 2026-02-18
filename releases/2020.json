@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [
+    {
+      "SteamID": 1204580,
+      "name": "First Contact",
+      "release_date": "21 Feb, 2020"
+    }
+  ],
+  "3": [
+    {
+      "SteamID": 1248670,
+      "name": "Stanga",
+      "release_date": "17 Mar, 2020"
+    }
+  ],
+  "4": [
+    {
+      "SteamID": 1285070,
+      "name": "Bad Run - Turbo Edition",
+      "release_date": "21 Apr, 2020"
+    },
+    {
+      "SteamID": 612570,
+      "name": "Fort Triumph",
+      "release_date": "Apr 16, 2020"
+    }
+  ],
+  "5": [],
+  "6": [
+    {
+      "SteamID": 1174670,
+      "name": "Nordic Warriors",
+      "release_date": "19 Jun, 2020"
+    }
+  ],
+  "7": [],
+  "8": [
+    {
+      "SteamID": 1128220,
+      "name": "ZAAM",
+      "release_date": "13 Aug, 2020"
+    }
+  ],
+  "9": [
+    {
+      "SteamID": 678150,
+      "name": "JMPR",
+      "release_date": "17 Sep, 2020"
+    }
+  ],
+  "10": [],
+  "11": [],
+  "12": [],
+  "unknown": []
+}

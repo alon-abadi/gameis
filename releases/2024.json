@@ -1,0 +1,121 @@
+{
+  "1": [
+    {
+      "SteamID": 2333480,
+      "name": "RAID: Shadow Legends",
+      "release_date": "9 Jan, 2024"
+    },
+    {
+      "SteamID": 2441700,
+      "name": "UNDERDOGS",
+      "release_date": "25 Jan, 2024"
+    }
+  ],
+  "2": [
+    {
+      "SteamID": 2744730,
+      "name": "Cogstellation",
+      "release_date": "20 Feb, 2024"
+    }
+  ],
+  "3": [
+    {
+      "SteamID": 2259130,
+      "name": "Emil: A Hero's Journey - Prologue",
+      "release_date": "22 Mar, 2024"
+    }
+  ],
+  "4": [
+    {
+      "SteamID": 2293540,
+      "name": "Exodus",
+      "release_date": "16 Apr, 2024"
+    },
+    {
+      "SteamID": 2669540,
+      "name": "Necrophoresis",
+      "release_date": "30 Apr, 2024"
+    }
+  ],
+  "5": [
+    {
+      "SteamID": 1076750,
+      "name": "Dream Engines: Nomad Cities",
+      "release_date": "9 May, 2024"
+    },
+    {
+      "SteamID": 2725560,
+      "name": "Idle Fishing",
+      "release_date": "24 May, 2024"
+    }
+  ],
+  "6": [
+    {
+      "SteamID": 2854710,
+      "name": "Chocolate Factory",
+      "release_date": "18 Jun, 2024"
+    }
+  ],
+  "7": [],
+  "8": [
+    {
+      "SteamID": 2553420,
+      "name": "Outta Hand",
+      "release_date": "15 Aug, 2024"
+    },
+    {
+      "SteamID": 2800450,
+      "name": "Planetaries",
+      "release_date": "15 Aug, 2024"
+    }
+  ],
+  "9": [
+    {
+      "SteamID": 2015240,
+      "name": "Dwarven Realms",
+      "release_date": "27 Sep, 2024"
+    },
+    {
+      "SteamID": 2350020,
+      "name": "Start Over",
+      "release_date": "27 Sep, 2024"
+    }
+  ],
+  "10": [
+    {
+      "SteamID": 2546150,
+      "name": "Entities",
+      "release_date": "24 Oct, 2024"
+    }
+  ],
+  "11": [
+    {
+      "SteamID": 2759760,
+      "name": "Prickle",
+      "release_date": "22 Nov, 2024"
+    },
+    {
+      "SteamID": 2954780,
+      "name": "Nightmare House: The Original Mod",
+      "release_date": "14 Nov, 2024"
+    },
+    {
+      "SteamID": 3098890,
+      "name": "World Crafter TD",
+      "release_date": "18 Nov, 2024"
+    },
+    {
+      "SteamID": 3144950,
+      "name": "Pet Lands",
+      "release_date": "25 Nov, 2024"
+    }
+  ],
+  "12": [
+    {
+      "SteamID": 3225860,
+      "name": "Super Ricko’s Islands",
+      "release_date": "4 Dec, 2024"
+    }
+  ],
+  "unknown": []
+}

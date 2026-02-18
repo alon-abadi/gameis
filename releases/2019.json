@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [
+    {
+      "SteamID": 778650,
+      "name": "Volcano Tower",
+      "release_date": "16 Feb, 2019"
+    },
+    {
+      "SteamID": 909190,
+      "name": "Escape Lala - Retro Point and Click Adventure",
+      "release_date": "14 Feb, 2019"
+    }
+  ],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [
+    {
+      "SteamID": 884630,
+      "name": "Golden Fall",
+      "release_date": "14 Jun, 2019"
+    }
+  ],
+  "7": [
+    {
+      "SteamID": 1079450,
+      "name": "Escape Lala 2 - Retro Point and Click Adventure",
+      "release_date": "17 Jul, 2019"
+    }
+  ],
+  "8": [],
+  "9": [],
+  "10": [
+    {
+      "SteamID": 1161200,
+      "name": "Foreign",
+      "release_date": "7 Oct, 2019"
+    }
+  ],
+  "11": [],
+  "12": [
+    {
+      "SteamID": 1193780,
+      "name": "Tower Climb",
+      "release_date": "11 Dec, 2019"
+    }
+  ],
+  "unknown": []
+}

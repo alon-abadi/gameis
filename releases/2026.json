@@ -1,0 +1,115 @@
+{
+  "1": [],
+  "2": [
+    {
+      "SteamID": 3009970,
+      "name": "Haifa",
+      "release_date": "9 Feb, 2026"
+    },
+    {
+      "SteamID": 4255650,
+      "name": "Qwerty Garden",
+      "release_date": "4 Feb, 2026"
+    }
+  ],
+  "3": [
+    {
+      "SteamID": 3924170,
+      "name": "Eternal Afternoon",
+      "release_date": "3 Mar, 2026"
+    },
+    {
+      "SteamID": 4047130,
+      "name": "Cardwheel",
+      "release_date": "March 2026"
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "SteamID": 4086630,
+      "name": "TingBase",
+      "release_date": "12 May, 2026"
+    }
+  ],
+  "6": [
+    {
+      "SteamID": 2577730,
+      "name": "Golel",
+      "release_date": "June 2026"
+    }
+  ],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
+  "unknown": [
+    {
+      "SteamID": 1355900,
+      "name": "Tattered Banners",
+      "release_date": "Q4 2026"
+    },
+    {
+      "SteamID": 2276770,
+      "name": "Possible One: Lunar Industries",
+      "release_date": "Q2 2026"
+    },
+    {
+      "SteamID": 2529960,
+      "name": "Alpha Nomos",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 3464670,
+      "name": "Dead Watch",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 3541940,
+      "name": "Breaking News",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 3613050,
+      "name": "Gravebound",
+      "release_date": "Q1 2026"
+    },
+    {
+      "SteamID": 3734940,
+      "name": "Hextalia",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 3902490,
+      "name": "SkyRunner",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 3921340,
+      "name": "NTD: Tower Defense x Arcade",
+      "release_date": "Q4 2026"
+    },
+    {
+      "SteamID": 3936940,
+      "name": "Everhome",
+      "release_date": "Q1 2026"
+    },
+    {
+      "SteamID": 4112440,
+      "name": "RPG Map Maker",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 4274830,
+      "name": "Dreamera: Figment of Dreams",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 4304930,
+      "name": "Chef Knight",
+      "release_date": "2026"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "1": [
+    {
+      "SteamID": 1773570,
+      "name": "Laboratory",
+      "release_date": "24 Jan, 2022"
+    },
+    {
+      "SteamID": 582330,
+      "name": "Warriors: Rise to Glory",
+      "release_date": "20 Jan, 2022"
+    }
+  ],
+  "2": [
+    {
+      "SteamID": 1687020,
+      "name": "OneForAll",
+      "release_date": "2 Feb, 2022"
+    }
+  ],
+  "3": [
+    {
+      "SteamID": 1920650,
+      "name": "Contrablade: Stadium Rush",
+      "release_date": "30 Mar, 2022"
+    }
+  ],
+  "4": [
+    {
+      "SteamID": 1262760,
+      "name": "Digitizer",
+      "release_date": "7 Apr, 2022"
+    }
+  ],
+  "5": [],
+  "6": [
+    {
+      "SteamID": 1446540,
+      "name": "Fillit",
+      "release_date": "2 Jun, 2022"
+    },
+    {
+      "SteamID": 1910360,
+      "name": "Burial Stone",
+      "release_date": "30 Jun, 2022"
+    }
+  ],
+  "7": [],
+  "8": [
+    {
+      "SteamID": 1293540,
+      "name": "Outerverse",
+      "release_date": "29 Aug, 2022"
+    },
+    {
+      "SteamID": 1328840,
+      "name": "Lost in Play",
+      "release_date": "10 Aug, 2022"
+    }
+  ],
+  "9": [
+    {
+      "SteamID": 1275670,
+      "name": "Outcore: Desktop Adventure",
+      "release_date": "26 Sep, 2022"
+    },
+    {
+      "SteamID": 1904820,
+      "name": "Prison Life",
+      "release_date": "23 Sep, 2022"
+    }
+  ],
+  "10": [
+    {
+      "SteamID": 2090040,
+      "name": "Odium",
+      "release_date": "21 Oct, 2022"
+    },
+    {
+      "SteamID": 2160230,
+      "name": "Morrow",
+      "release_date": "21 Oct, 2022"
+    }
+  ],
+  "11": [
+    {
+      "SteamID": 1108170,
+      "name": "Plot of the Druid",
+      "release_date": "1 Nov, 2022"
+    },
+    {
+      "SteamID": 2082950,
+      "name": "Hansel And Gretel",
+      "release_date": "4 Nov, 2022"
+    }
+  ],
+  "12": [],
+  "unknown": []
+}
