@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Israeli Steam Games</title>
+  <meta name="description" content="A directory of Israeli-made video games on Steam, organized by year and month.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
+  <style>
+    :root {
+      --bg: #0e1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --pill-bg: #21262d;
+      --pill-active-bg: #1f6feb;
+      --pill-active-text: #fff;
+      --ea-badge: #d29922;
+      --demo-badge: #3fb950;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 24px 16px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    #year-nav {
+      display: flex;
+      gap: 8px;
+      padding: 12px 16px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    #year-nav::-webkit-scrollbar { display: none; }
+
+    .year-pill {
+      flex-shrink: 0;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--pill-bg);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 14px;
+      font-family: inherit;
+      transition: all 0.15s ease;
+    }
+
+    .year-pill:hover {
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
+    .year-pill.active {
+      background: var(--pill-active-bg);
+      color: var(--pill-active-text);
+      border-color: var(--pill-active-bg);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 48px;
+    }
+
+    .month-section {
+      margin-bottom: 8px;
+    }
+
+    .month-header {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 20px 16px 12px;
+      color: var(--text-muted);
+    }
+
+    .month-games {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      padding: 0 16px;
+    }
+
+    .game-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: border-color 0.15s ease;
+    }
+
+    .game-card:hover {
+      border-color: var(--accent);
+    }
+
+    .game-card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .game-card img {
+      width: 100%;
+      aspect-ratio: 292 / 136;
+      object-fit: cover;
+      display: block;
+      background: var(--pill-bg);
+    }
+
+    .game-info {
+      padding: 10px;
+    }
+
+    .game-name {
+      font-size: 13px;
+      font-weight: 600;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .game-date {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .game-badges {
+      display: flex;
+      gap: 6px;
+      margin-top: 6px;
+    }
+
+    .badge {
+      font-size: 10px;
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    .badge-ea { background: var(--ea-badge); color: #000; }
+    .badge-demo { background: var(--demo-badge); color: #000; }
+
+    .empty-state {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 48px 16px;
+      font-size: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 16px;
+      color: var(--text-muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    @media (min-width: 640px) {
+      .month-games { grid-template-columns: repeat(3, 1fr); }
+      .game-name { font-size: 14px; }
+    }
+
+    @media (min-width: 1024px) {
+      .month-games { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+      header h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Israeli Steam Games</h1>
+    <p class="subtitle"><span id="game-count"></span> games tracked</p>
+  </header>
+
+  <nav id="year-nav" aria-label="Year navigation"></nav>
+
+  <main id="game-list"></main>
+
+  <footer>
+    <p>Data from <a href="https://store.steampowered.com/curator/2728897" target="_blank" rel="noopener">Ping 972 Steam Curator</a></p>
+  </footer>
+
+  <script src="data/data.js"></script>
+  <script>
+    (function () {
+      var DATA = window.ISRAELI_GAMES_DATA;
+      if (!DATA) {
+        document.getElementById("game-list").innerHTML = '<p class="empty-state">Failed to load game data.</p>';
+        return;
+      }
+
+      var MONTHS = ["", "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+
+      var yearNav = document.getElementById("year-nav");
+      var gameList = document.getElementById("game-list");
+      var gameCountEl = document.getElementById("game-count");
+
+      var yearKeys = Object.keys(DATA.byYear);
+
+      // Count total games
+      var total = 0;
+      for (var i = 0; i < yearKeys.length; i++) {
+        var months = DATA.byYear[yearKeys[i]];
+        var mKeys = Object.keys(months);
+        for (var j = 0; j < mKeys.length; j++) {
+          total += months[mKeys[j]].length;
+        }
+      }
+      gameCountEl.textContent = total;
+
+      // Pick default year
+      var currentYear = new Date().getFullYear().toString();
+      var defaultYear = yearKeys.indexOf(currentYear) !== -1 ? currentYear : yearKeys[yearKeys.length - 1];
+      if (defaultYear === "other" && yearKeys.length > 1) defaultYear = yearKeys[yearKeys.length - 2];
+
+      // Build year pills
+      for (var i = 0; i < yearKeys.length; i++) {
+        var pill = document.createElement("button");
+        pill.className = "year-pill";
+        pill.textContent = yearKeys[i] === "other" ? "TBA" : yearKeys[i];
+        pill.setAttribute("data-year", yearKeys[i]);
+        pill.addEventListener("click", handlePillClick);
+        yearNav.appendChild(pill);
+      }
+
+      function handlePillClick(e) {
+        selectYear(e.currentTarget.getAttribute("data-year"));
+      }
+
+      function selectYear(yearKey) {
+        var pills = yearNav.querySelectorAll(".year-pill");
+        for (var i = 0; i < pills.length; i++) {
+          pills[i].classList.toggle("active", pills[i].getAttribute("data-year") === yearKey);
+        }
+
+        var active = yearNav.querySelector(".year-pill.active");
+        if (active) active.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+
+        history.replaceState(null, "", "#" + yearKey);
+        renderYear(yearKey);
+      }
+
+      function renderYear(yearKey) {
+        gameList.innerHTML = "";
+
+        var months = DATA.byYear[yearKey];
+        if (!months) return;
+
+        var mKeys = Object.keys(months);
+        var hasGames = false;
+
+        for (var i = 0; i < mKeys.length; i++) {
+          var games = months[mKeys[i]];
+          if (games.length === 0) continue;
+          hasGames = true;
+
+          var section = document.createElement("section");
+          section.className = "month-section";
+
+          var header = document.createElement("h2");
+          header.className = "month-header";
+          var monthNum = parseInt(mKeys[i], 10);
+          header.textContent = mKeys[i] === "unknown" ? "Date TBD" : (MONTHS[monthNum] || mKeys[i]);
+          section.appendChild(header);
+
+          var grid = document.createElement("div");
+          grid.className = "month-games";
+
+          for (var j = 0; j < games.length; j++) {
+            grid.appendChild(createCard(games[j]));
+          }
+
+          section.appendChild(grid);
+          gameList.appendChild(section);
+        }
+
+        if (!hasGames) {
+          gameList.innerHTML = '<p class="empty-state">No games for this year.</p>';
+        }
+      }
+
+      function createCard(game) {
+        var card = document.createElement("div");
+        card.className = "game-card";
+
+        var link = document.createElement("a");
+        link.href = game.link;
+        link.target = "_blank";
+        link.rel = "noopener";
+
+        var img = document.createElement("img");
+        img.src = game.image;
+        img.alt = game.name;
+        img.loading = "lazy";
+        img.width = 292;
+        img.height = 136;
+        link.appendChild(img);
+
+        var info = document.createElement("div");
+        info.className = "game-info";
+
+        var name = document.createElement("div");
+        name.className = "game-name";
+        name.textContent = game.name;
+        name.title = game.name;
+        info.appendChild(name);
+
+        var date = document.createElement("div");
+        date.className = "game-date";
+        date.textContent = game.release_date;
+        info.appendChild(date);
+
+        if (game.ea || game.demo) {
+          var badges = document.createElement("div");
+          badges.className = "game-badges";
+          if (game.ea) {
+            var b = document.createElement("span");
+            b.className = "badge badge-ea";
+            b.textContent = "Early Access";
+            badges.appendChild(b);
+          }
+          if (game.demo) {
+            var b = document.createElement("span");
+            b.className = "badge badge-demo";
+            b.textContent = "Demo";
+            badges.appendChild(b);
+          }
+          info.appendChild(badges);
+        }
+
+        link.appendChild(info);
+        card.appendChild(link);
+        return card;
+      }
+
+      // Init from hash or default
+      var hash = location.hash.replace("#", "");
+      var initial = yearKeys.indexOf(hash) !== -1 ? hash : defaultYear;
+      selectYear(initial);
+    })();
+  </script>
+</body>
+</html>
