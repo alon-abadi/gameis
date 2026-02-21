@@ -1,9 +1,9 @@
 name: Build data.js
 
 on:
-  schedule:
-    - cron: "0 0 1 * *"
-    - cron: "0 0 15 * *"
+  workflow_run:
+    workflows: ["Sync Steam Curator"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:

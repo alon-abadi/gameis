@@ -176,6 +176,15 @@ function getGamesToFetch(curatorAppIds, tracking, avoidSet) {
 
     if (tracked.released) continue;
 
+    // Always refetch games with no concrete release date
+    const gameFile = path.join(GAMEDATA_DIR, `${appId}.json`);
+    const gameData = loadJson(gameFile);
+    const rd = gameData && gameData.release_date;
+    if (!rd || rd === "Coming soon" || rd === "To be announced") {
+      toFetch.push(appId);
+      continue;
+    }
+
     const lastFetched = new Date(tracked.last_fetched);
     const monthsDiff =
       (now.getFullYear() - lastFetched.getFullYear()) * 12 +
