@@ -1,0 +1,41 @@
+name: Build Context Data
+
+on:
+  push:
+    paths:
+      - context.md
+      - groups.md
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate context data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node generate-context.js
+
+      - name: Commit and push
+        run: |
+          if [[ -n "$(git status --porcelain context-generated.json data/context-data.js)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add context-generated.json data/context-data.js
+            git commit -m "Update context data"
+            git push
+          else
+            echo "No changes to commit."
+          fi
