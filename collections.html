@@ -231,7 +231,18 @@
 
         var heading = document.createElement("h2");
         heading.className = "collection-name";
-        heading.textContent = group.name;
+        if (group.url) {
+          var nameLink = document.createElement("a");
+          nameLink.href = group.url;
+          nameLink.target = "_blank";
+          nameLink.rel = "noopener";
+          nameLink.textContent = group.name;
+          nameLink.style.color = "var(--accent)";
+          nameLink.style.textDecoration = "none";
+          heading.appendChild(nameLink);
+        } else {
+          heading.textContent = group.name;
+        }
         section.appendChild(heading);
 
         if (group.description) {
