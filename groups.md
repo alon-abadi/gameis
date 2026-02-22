@@ -8,6 +8,11 @@ name: Example Group Name
 games: 1234567, 2345678
 Any context about what ties these games together.
 -->
+# IndieGamesNewsletter
+name: Israeli Indie Newsletter
+games: 2759760, 2704210, 1275670, 1303950, 1029650, 3531690, 1293300, 3298910, 923100, 2923140, 523770, 2553420, 4163030
+הניוזלטר של משחקי האינדי הישראליים (indiegames.co.il) מפרסם מדי חודש כתבה מעמיקה על משחק אינדי ישראלי.
+
 # Klexber
 name: Alex Klexber
 games: 3924170, 2704210, 2259340
