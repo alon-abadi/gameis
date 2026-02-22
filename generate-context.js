@@ -62,27 +62,43 @@ function parseContextMd() {
   const entries = new Map();
   let currentId = null;
   let currentTags = [];
+  let currentStudio = null;
+  let currentDemoDate = null;
   let currentNotes = [];
 
   function flush() {
     if (currentId) {
       entries.set(currentId, {
         tags: currentTags,
+        studio: currentStudio,
+        demoDate: currentDemoDate,
         notes: currentNotes.join("\n").trim(),
       });
     }
   }
 
   for (const line of raw.split("\n")) {
-    const headerMatch = /^#\s+(\d+)\s*$/.exec(line);
+    const headerMatch = /^#\s+(\d+)(?:\s+.*)?$/.exec(line);
     if (headerMatch) {
       flush();
       currentId = headerMatch[1];
       currentTags = [];
+      currentStudio = null;
+      currentDemoDate = null;
       currentNotes = [];
       continue;
     }
     if (!currentId) continue;
+    const studioMatch = /^studio:\s*(.+)$/i.exec(line);
+    if (studioMatch && !currentStudio) {
+      currentStudio = studioMatch[1].trim();
+      continue;
+    }
+    const demoDateMatch = /^demo_date:\s*(.+)$/i.exec(line);
+    if (demoDateMatch && !currentDemoDate) {
+      currentDemoDate = demoDateMatch[1].trim();
+      continue;
+    }
     const tagsMatch = /^tags:\s*(.+)$/i.exec(line);
     if (tagsMatch && currentTags.length === 0 && currentNotes.length === 0) {
       currentTags = tagsMatch[1]
@@ -201,6 +217,9 @@ function buildGamePrompt(steamData, context) {
     if (steamData.ea) parts.push("Status: Early Access");
     if (steamData.demo) parts.push("Has a playable demo");
   }
+  if (context.studio) {
+    parts.push(`Developer: ${context.studio}`);
+  }
   if (context.tags.length > 0) {
     parts.push(`Tags: ${context.tags.join(", ")}`);
   }
@@ -231,6 +250,8 @@ function computeGameHash(context, steamData) {
   const input = JSON.stringify({
     notes: context.notes,
     tags: context.tags.slice().sort(),
+    studio: context.studio || "",
+    demoDate: context.demoDate || "",
     gameName: steamData ? steamData.name : "",
     releaseDate: steamData ? steamData.release_date : "",
     ea: steamData ? steamData.ea : false,
