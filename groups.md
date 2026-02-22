@@ -10,8 +10,14 @@ Any context about what ties these games together.
 -->
 # IndieGamesNewsletter
 name: Israeli Indie Newsletter
+url: https://indiegames.co.il
 games: 2759760, 2704210, 1275670, 1303950, 1029650, 3531690, 1293300, 3298910, 923100, 2923140, 523770, 2553420, 4163030
 הניוזלטר של משחקי האינדי הישראליים (indiegames.co.il) מפרסם מדי חודש כתבה מעמיקה על משחק אינדי ישראלי.
+
+# GameISGrantWinners2025
+name: 2025 GameIS Grant Winners (with Xsolla)
+games: 1355900, 3034960, 2529960
+זוכי מענק GameIS ו-Xsolla לשנת 2025: Tattered Banners (מקום ראשון), Xenospore (מקום שני), Alpha Nomos (מקום שלישי).
 
 # Klexber
 name: Alex Klexber

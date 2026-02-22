@@ -18,6 +18,14 @@
     }
   },
   "groups": {
+    "GameISGrantWinners2025": {
+      "aiDescription": "This collection showcases the three winners of the 2025 GameIS and Xsolla grant for Israeli indie game developers. Tattered Banners took first place, followed by Xenospore in second and Alpha Nomos in third, each representing the best of emerging Israeli indie talent.",
+      "hash": "9aca80b5f0514094781e2b8e26a2e0de0f030dfba9f79a79de94cf71e0da8c55"
+    },
+    "IndieGamesNewsletter": {
+      "aiDescription": "The Israeli Indie Games Newsletter publishes monthly in-depth features on Israeli indie games, spotlighting developers and their creative journeys. This collection brings together the games that have been featured across the newsletter's issues.",
+      "hash": "7fa7910225cb6caaab3493b3e9b8b48a30e5c118b7a006945db0df9425d1f30e"
+    },
     "Klexber": {
       "aiDescription": "This collection spotlights the work of Alex Klexber, an animator and indie game creator whose distinctive style spans multiple titles. From Don't Wake God to Wheelborn and the upcoming Eternal Afternoon, Klexber's games reflect a creative vision shaped by his animation background. His work has been featured in the Israeli indie games newsletter.",
       "hash": "4f4ea3d310f94097c6425ea3c1b38f2b8804fd30914a40200861b2f14c91787f"

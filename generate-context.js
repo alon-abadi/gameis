@@ -135,6 +135,7 @@ function parseGroupsMd() {
       current = {
         slug: headerMatch[1],
         name: "",
+        url: null,
         games: [],
         notes: [],
       };
@@ -144,6 +145,11 @@ function parseGroupsMd() {
     const nameMatch = /^name:\s*(.+)$/i.exec(line);
     if (nameMatch && !current.name) {
       current.name = nameMatch[1].trim();
+      continue;
+    }
+    const urlMatch = /^url:\s*(.+)$/i.exec(line);
+    if (urlMatch && !current.url) {
+      current.url = urlMatch[1].trim();
       continue;
     }
     const gamesMatch = /^games:\s*(.+)$/i.exec(line);
@@ -404,6 +410,9 @@ async function main() {
       name: group.name,
       games: group.games,
     };
+    if (group.url) {
+      out.url = group.url;
+    }
     const cached = cache.groups[group.slug];
     if (cached && cached.aiDescription) {
       out.description = cached.aiDescription;
