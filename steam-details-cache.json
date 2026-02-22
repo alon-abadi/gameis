@@ -1,0 +1,2410 @@
+{
+  "games": {
+    "331210": {
+      "developers": [
+        "Adventure Mob",
+        "Corbomite Games"
+      ],
+      "publishers": [
+        "Adventure Mob",
+        "Corbomite Games"
+      ],
+      "demos": []
+    },
+    "365870": {
+      "developers": [
+        "Team Kryll"
+      ],
+      "publishers": [
+        "Team Kryll"
+      ],
+      "demos": []
+    },
+    "428080": {
+      "developers": [
+        "One Hamsa"
+      ],
+      "publishers": [
+        "One Hamsa"
+      ],
+      "demos": [
+        {
+          "appid": 498290
+        }
+      ]
+    },
+    "455980": {
+      "developers": [
+        "Suncrash"
+      ],
+      "publishers": [
+        "Suncrash"
+      ],
+      "demos": []
+    },
+    "517210": {
+      "developers": [
+        "Headbang Games",
+        "Oray Studios"
+      ],
+      "publishers": [
+        "Headbang Games"
+      ],
+      "demos": [
+        {
+          "appid": 565420
+        }
+      ]
+    },
+    "523770": {
+      "developers": [
+        "Capricia Productions"
+      ],
+      "publishers": [
+        "Capricia Productions"
+      ],
+      "demos": []
+    },
+    "558660": {
+      "developers": [
+        "Alon Zubina"
+      ],
+      "publishers": [
+        "Alon Zubina"
+      ],
+      "demos": []
+    },
+    "582330": {
+      "developers": [
+        "Gavra Games"
+      ],
+      "publishers": [
+        "Gavra Games"
+      ],
+      "demos": []
+    },
+    "612570": {
+      "developers": [
+        "CookieByte Entertainment"
+      ],
+      "publishers": [
+        "CookieByte Entertainment"
+      ],
+      "demos": []
+    },
+    "621070": {
+      "developers": [
+        "Larkon Studio"
+      ],
+      "publishers": [
+        "Larkon Studio"
+      ],
+      "demos": []
+    },
+    "678150": {
+      "developers": [
+        "L E V E L"
+      ],
+      "publishers": [
+        "The Incubator"
+      ],
+      "demos": []
+    },
+    "724750": {
+      "developers": [
+        "Tomer Caner",
+        "Nitay Parnes"
+      ],
+      "publishers": [
+        "Indie"
+      ],
+      "demos": []
+    },
+    "726250": {
+      "developers": [
+        "Portal Studios"
+      ],
+      "publishers": [
+        "Portal Studios"
+      ],
+      "demos": []
+    },
+    "778650": {
+      "developers": [
+        "UglyCake Games"
+      ],
+      "publishers": [
+        "UglyCake Games"
+      ],
+      "demos": []
+    },
+    "808800": {
+      "developers": [
+        "Star Bunny Enterprises"
+      ],
+      "publishers": [
+        "Star Bunny Enterprises"
+      ],
+      "demos": []
+    },
+    "810660": {
+      "developers": [
+        "11Sheep"
+      ],
+      "publishers": [
+        "11Sheep"
+      ],
+      "demos": []
+    },
+    "818760": {
+      "developers": [
+        "Sen Games"
+      ],
+      "publishers": [
+        "Sen Games"
+      ],
+      "demos": []
+    },
+    "877310": {
+      "developers": [
+        "Pompi Pompi Entertainment"
+      ],
+      "publishers": [
+        "Pompi Pompi Entertainment"
+      ],
+      "demos": []
+    },
+    "884630": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": []
+    },
+    "908710": {
+      "developers": [
+        "WeRVR Studio"
+      ],
+      "publishers": [
+        "WeRVR Studio"
+      ],
+      "demos": []
+    },
+    "909190": {
+      "developers": [
+        "DuckbearLab"
+      ],
+      "publishers": [
+        "DuckbearLab"
+      ],
+      "demos": []
+    },
+    "923100": {
+      "developers": [
+        "Biohex Studios"
+      ],
+      "publishers": [
+        "Firesquid"
+      ],
+      "demos": []
+    },
+    "986070": {
+      "developers": [
+        "Triangle Square"
+      ],
+      "publishers": [
+        "Triangle Square"
+      ],
+      "demos": []
+    },
+    "1010910": {
+      "developers": [
+        "App Tech Innovations"
+      ],
+      "publishers": [
+        "App Tech Innovations"
+      ],
+      "demos": []
+    },
+    "1029650": {
+      "developers": [
+        "Rafael Ben-Ari"
+      ],
+      "publishers": [
+        "Rafael Ben-Ari"
+      ],
+      "demos": []
+    },
+    "1076750": {
+      "developers": [
+        "Suncrash"
+      ],
+      "publishers": [
+        "Suncrash",
+        "Gamirror Games"
+      ],
+      "demos": []
+    },
+    "1079450": {
+      "developers": [
+        "DuckbearLab"
+      ],
+      "publishers": [
+        "DuckbearLab"
+      ],
+      "demos": []
+    },
+    "1092950": {
+      "developers": [
+        "Guillotine"
+      ],
+      "publishers": [
+        "Guillotine"
+      ],
+      "demos": [
+        {
+          "appid": 1092960
+        }
+      ]
+    },
+    "1108170": {
+      "developers": [
+        "Yakir Israel",
+        "Adventure4Life Studios"
+      ],
+      "publishers": [
+        "Yakir Israel",
+        "Adventure4Life Studios"
+      ],
+      "demos": []
+    },
+    "1119980": {
+      "developers": [
+        "We Create Stuff"
+      ],
+      "publishers": [
+        "Maximum Entertainment"
+      ],
+      "demos": []
+    },
+    "1123050": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Akupara Games"
+      ],
+      "demos": [
+        {
+          "appid": 1524090
+        }
+      ]
+    },
+    "1128220": {
+      "developers": [
+        "Alon Zubina"
+      ],
+      "publishers": [
+        " Alon Zubina"
+      ],
+      "demos": []
+    },
+    "1158190": {
+      "developers": [
+        "Kingblade Games"
+      ],
+      "publishers": [
+        "Kingblade Games"
+      ],
+      "demos": [
+        {
+          "appid": 1304040
+        }
+      ]
+    },
+    "1161200": {
+      "developers": [
+        "Ilan Manor"
+      ],
+      "publishers": [
+        "Ilan Manor"
+      ],
+      "demos": []
+    },
+    "1174670": {
+      "developers": [
+        "Liron Peer",
+        "Roman Levin (Coldsteel48)"
+      ],
+      "publishers": [
+        "Mashmashu Studio"
+      ],
+      "demos": []
+    },
+    "1182410": {
+      "developers": [
+        "Gamut team"
+      ],
+      "publishers": [
+        "Gamut team"
+      ],
+      "demos": []
+    },
+    "1186300": {
+      "developers": [
+        "Indistinct Chatter",
+        "Nadav Hekselman"
+      ],
+      "publishers": [
+        "Indistinct Chatter"
+      ],
+      "demos": []
+    },
+    "1193780": {
+      "developers": [
+        "11Sheep"
+      ],
+      "publishers": [
+        "11Sheep"
+      ],
+      "demos": []
+    },
+    "1204580": {
+      "developers": [
+        "Haguy Eis"
+      ],
+      "publishers": [
+        "Eis Interactive"
+      ],
+      "demos": []
+    },
+    "1211220": {
+      "developers": [
+        "11Sheep"
+      ],
+      "publishers": [
+        "11Sheep"
+      ],
+      "demos": []
+    },
+    "1248670": {
+      "developers": [
+        "Tzahi Games"
+      ],
+      "publishers": [
+        "Tzahi Games"
+      ],
+      "demos": []
+    },
+    "1262760": {
+      "developers": [
+        "Ilan Manor"
+      ],
+      "publishers": [
+        "Ilan Manor"
+      ],
+      "demos": []
+    },
+    "1268790": {
+      "developers": [
+        "Twisted II Studio"
+      ],
+      "publishers": [
+        "Twisted II Studio",
+        "Feardemic"
+      ],
+      "demos": [
+        {
+          "appid": 1269460
+        }
+      ]
+    },
+    "1275670": {
+      "developers": [
+        "Doctor Shinobi"
+      ],
+      "publishers": [
+        "Doctor Shinobi"
+      ],
+      "demos": []
+    },
+    "1285070": {
+      "developers": [
+        "Headbang Games",
+        "Oray Studios"
+      ],
+      "publishers": [
+        "Headbang Games"
+      ],
+      "demos": [
+        {
+          "appid": 1292470
+        }
+      ]
+    },
+    "1288420": {
+      "developers": [
+        "Peanut Button"
+      ],
+      "publishers": [
+        "Peanut Button"
+      ],
+      "demos": []
+    },
+    "1292310": {
+      "developers": [
+        "Cosmic Duck Games"
+      ],
+      "publishers": [
+        "Cosmic Duck Games"
+      ],
+      "demos": []
+    },
+    "1292410": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": [
+        {
+          "appid": 1295050
+        }
+      ]
+    },
+    "1293300": {
+      "developers": [
+        "Mitzi Games",
+        "Alex Nicola"
+      ],
+      "publishers": [
+        "Mitzi Games"
+      ],
+      "demos": []
+    },
+    "1293540": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [],
+      "demos": []
+    },
+    "1300600": {
+      "developers": [
+        "Lo-Fi People"
+      ],
+      "publishers": [
+        "Lo-Fi People"
+      ],
+      "demos": []
+    },
+    "1303950": {
+      "developers": [
+        "dietzribi"
+      ],
+      "publishers": [
+        "dietzribi"
+      ],
+      "demos": []
+    },
+    "1328840": {
+      "developers": [
+        "Happy Juice Games"
+      ],
+      "publishers": [
+        "Joystick Ventures"
+      ],
+      "demos": [
+        {
+          "appid": 1897210
+        }
+      ]
+    },
+    "1355900": {
+      "developers": [
+        "CookieByte Entertainment"
+      ],
+      "publishers": [
+        "CookieByte Entertainment"
+      ],
+      "demos": []
+    },
+    "1367050": {
+      "developers": [
+        "Headbang Games",
+        "Oray Studios"
+      ],
+      "publishers": [
+        "Headbang Games"
+      ],
+      "demos": [
+        {
+          "appid": 1448210
+        }
+      ]
+    },
+    "1446540": {
+      "developers": [
+        "11Sheep"
+      ],
+      "publishers": [
+        "11Sheep"
+      ],
+      "demos": []
+    },
+    "1464220": {
+      "developers": [
+        "David Vinokurov"
+      ],
+      "publishers": [
+        "David Vinokurov"
+      ],
+      "demos": []
+    },
+    "1483000": {
+      "developers": [
+        "Ready Steady Games"
+      ],
+      "publishers": [
+        "Ready Steady Games"
+      ],
+      "demos": []
+    },
+    "1533050": {
+      "developers": [
+        "Idan Rooze"
+      ],
+      "publishers": [
+        "Idan Rooze"
+      ],
+      "demos": []
+    },
+    "1544570": {
+      "developers": [
+        "Yakir Israel",
+        "Adventure4Life Studios"
+      ],
+      "publishers": [
+        "Yakir Israel",
+        "Adventure4Life Studios"
+      ],
+      "demos": []
+    },
+    "1559990": {
+      "developers": [
+        "Hardcare Games"
+      ],
+      "publishers": [
+        "Hardcare Games"
+      ],
+      "demos": []
+    },
+    "1625190": {
+      "developers": [
+        "Garage Studio"
+      ],
+      "publishers": [
+        "Garage Studio"
+      ],
+      "demos": [
+        {
+          "appid": 1669510
+        }
+      ]
+    },
+    "1678940": {
+      "developers": [
+        "90DegreeGames"
+      ],
+      "publishers": [
+        "90DegreeGames"
+      ],
+      "demos": []
+    },
+    "1687020": {
+      "developers": [
+        "Relka studio",
+        "Raphael Chalupowicz"
+      ],
+      "publishers": [
+        "Relka studio"
+      ],
+      "demos": []
+    },
+    "1700300": {
+      "developers": [
+        "Okron Studio"
+      ],
+      "publishers": [
+        "Okron Studio"
+      ],
+      "demos": []
+    },
+    "1729120": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": []
+    },
+    "1746890": {
+      "developers": [
+        "Crater Studios"
+      ],
+      "publishers": [
+        "Crater Studios"
+      ],
+      "demos": []
+    },
+    "1768090": {
+      "developers": [
+        "ZeeGee Games"
+      ],
+      "publishers": [
+        "ZeeGee Games"
+      ],
+      "demos": []
+    },
+    "1773570": {
+      "developers": [
+        "Far-Bear"
+      ],
+      "publishers": [
+        "Far-Bear"
+      ],
+      "demos": []
+    },
+    "1780000": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": []
+    },
+    "1790990": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "1804380": {
+      "developers": [
+        "SKELETON GAMES",
+        "MOSHE ATTIAS"
+      ],
+      "publishers": [
+        "SKELETON GAMES"
+      ],
+      "demos": []
+    },
+    "1818610": {
+      "developers": [
+        "Tbjbu2 Originals"
+      ],
+      "publishers": [
+        "Tbjbu2 Originals"
+      ],
+      "demos": [
+        {
+          "appid": 1886710
+        }
+      ]
+    },
+    "1891600": {
+      "developers": [
+        "Haguy Eis"
+      ],
+      "publishers": [
+        "Eis Interactive"
+      ],
+      "demos": [
+        {
+          "appid": 2092440
+        }
+      ]
+    },
+    "1903430": {
+      "developers": [
+        "Scarlet Genesis Studios"
+      ],
+      "publishers": [
+        "Scarlet Genesis Studios"
+      ],
+      "demos": []
+    },
+    "1904820": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "1910360": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": [
+        {
+          "appid": 1983440
+        }
+      ]
+    },
+    "1920650": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2"
+      ],
+      "demos": [
+        {
+          "appid": 2143900
+        }
+      ]
+    },
+    "1926070": {
+      "developers": [
+        "Golan Eli"
+      ],
+      "publishers": [
+        "Golan Eli"
+      ],
+      "demos": []
+    },
+    "1947160": {
+      "developers": [
+        "DVTZR"
+      ],
+      "publishers": [
+        "DVTZR"
+      ],
+      "demos": [
+        {
+          "appid": 2182330
+        }
+      ]
+    },
+    "2015240": {
+      "developers": [
+        "Crater Studios"
+      ],
+      "publishers": [
+        "Crater Studios"
+      ],
+      "demos": []
+    },
+    "2016560": {
+      "developers": [
+        "Tbjbu2 Originals"
+      ],
+      "publishers": [
+        "Tbjbu2 Originals"
+      ],
+      "demos": []
+    },
+    "2065840": {
+      "developers": [
+        "dietzribi"
+      ],
+      "publishers": [
+        "dietzribi"
+      ],
+      "demos": []
+    },
+    "2077310": {
+      "developers": [
+        "Single A Games"
+      ],
+      "publishers": [
+        "Single A Games"
+      ],
+      "demos": []
+    },
+    "2082950": {
+      "developers": [
+        "Neve Braymok"
+      ],
+      "publishers": [
+        "Neve Braymok"
+      ],
+      "demos": []
+    },
+    "2084210": {
+      "developers": [
+        "Tbjbu2 Originals",
+        "NickRaider"
+      ],
+      "publishers": [
+        "Tbjbu2 Originals"
+      ],
+      "demos": []
+    },
+    "2090040": {
+      "developers": [
+        "Odium team"
+      ],
+      "publishers": [
+        "None"
+      ],
+      "demos": []
+    },
+    "2100040": {
+      "developers": [
+        "SuperBlast"
+      ],
+      "publishers": [
+        "SuperBlast"
+      ],
+      "demos": []
+    },
+    "2125160": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "2151850": {
+      "developers": [
+        "Headbang Games"
+      ],
+      "publishers": [
+        "Headbang Games"
+      ],
+      "demos": [
+        {
+          "appid": 2180790
+        }
+      ]
+    },
+    "2160230": {
+      "developers": [
+        "Boydem Studios"
+      ],
+      "publishers": [
+        "Boydem Studios"
+      ],
+      "demos": []
+    },
+    "2210060": {
+      "developers": [
+        "Motion Powered"
+      ],
+      "publishers": [
+        "Motion Powered"
+      ],
+      "demos": [
+        {
+          "appid": 2577000
+        }
+      ]
+    },
+    "2236300": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2"
+      ],
+      "demos": [
+        {
+          "appid": 2426180
+        }
+      ]
+    },
+    "2259130": {
+      "developers": [
+        "Starkids Studios"
+      ],
+      "publishers": [
+        "Starkids Studios"
+      ],
+      "demos": []
+    },
+    "2259340": {
+      "developers": [
+        "Alex Klexber"
+      ],
+      "publishers": [
+        "Alex Klexber"
+      ],
+      "demos": []
+    },
+    "2276770": {
+      "developers": [
+        "Upstairs Games"
+      ],
+      "publishers": [
+        "Upstairs Games"
+      ],
+      "demos": [
+        {
+          "appid": 4347920
+        }
+      ]
+    },
+    "2284160": {
+      "developers": [
+        "Uniqa Entertainment",
+        "3Hills"
+      ],
+      "publishers": [
+        "Uniqa Entertainment"
+      ],
+      "demos": []
+    },
+    "2293540": {
+      "developers": [
+        "Peleg Harel"
+      ],
+      "publishers": [
+        "Peleg Harel"
+      ],
+      "demos": [
+        {
+          "appid": 2394850
+        }
+      ]
+    },
+    "2320730": {
+      "developers": [
+        "Diamond Dust Games"
+      ],
+      "publishers": [
+        "Diamond Dust Games"
+      ],
+      "demos": [
+        {
+          "appid": 2918050
+        }
+      ]
+    },
+    "2323370": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "2333480": {
+      "developers": [
+        "Plarium Global Ltd"
+      ],
+      "publishers": [
+        "Plarium Global Ltd"
+      ],
+      "demos": []
+    },
+    "2333760": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": [
+        {
+          "appid": 2341400
+        }
+      ]
+    },
+    "2350020": {
+      "developers": [
+        "EY-Studio"
+      ],
+      "publishers": [
+        "EY-Studio"
+      ],
+      "demos": []
+    },
+    "2414500": {
+      "developers": [
+        "Oleg Fedotov"
+      ],
+      "publishers": [
+        "Oleg Fedotov"
+      ],
+      "demos": []
+    },
+    "2441700": {
+      "developers": [
+        "One Hamsa"
+      ],
+      "publishers": [
+        "One Hamsa"
+      ],
+      "demos": []
+    },
+    "2446620": {
+      "developers": [
+        "Jimjum Studios"
+      ],
+      "publishers": [
+        "Jimjum Studios"
+      ],
+      "demos": [
+        {
+          "appid": 2545640
+        }
+      ]
+    },
+    "2496440": {
+      "developers": [
+        "Hosted Games"
+      ],
+      "publishers": [
+        "Hosted Games"
+      ],
+      "demos": [
+        {
+          "appid": 2496450
+        }
+      ]
+    },
+    "2509280": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "2513270": {
+      "developers": [
+        "dietzribi"
+      ],
+      "publishers": [
+        "dietzribi"
+      ],
+      "demos": [
+        {
+          "appid": 2519730
+        }
+      ]
+    },
+    "2515490": {
+      "developers": [
+        "Ilan Manor"
+      ],
+      "publishers": [
+        "Ilan Manor"
+      ],
+      "demos": [
+        {
+          "appid": 3432740
+        }
+      ]
+    },
+    "2529790": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Kwalee"
+      ],
+      "demos": [
+        {
+          "appid": 4025170
+        }
+      ]
+    },
+    "2529960": {
+      "developers": [
+        "RibCage Games"
+      ],
+      "publishers": [
+        "RibCage Games"
+      ],
+      "demos": [
+        {
+          "appid": 4154870
+        }
+      ]
+    },
+    "2546150": {
+      "developers": [
+        "EY-Studio"
+      ],
+      "publishers": [
+        "EY-Studio"
+      ],
+      "demos": []
+    },
+    "2553420": {
+      "developers": [
+        "Capricia Productions"
+      ],
+      "publishers": [
+        "Beyond Frames"
+      ],
+      "demos": []
+    },
+    "2555300": {
+      "developers": [
+        "ND Parallel"
+      ],
+      "publishers": [
+        "ND Parallel"
+      ],
+      "demos": []
+    },
+    "2577730": {
+      "developers": [
+        "Ofer Rubinstein"
+      ],
+      "publishers": [
+        "Ofer Rubinstein"
+      ],
+      "demos": [
+        {
+          "appid": 3066000
+        }
+      ]
+    },
+    "2587380": {
+      "developers": [
+        "DaisyCreators"
+      ],
+      "publishers": [
+        "DaisyCreators"
+      ],
+      "demos": []
+    },
+    "2669540": {
+      "developers": [
+        "Amit Elnatan",
+        "Itay Tamir"
+      ],
+      "publishers": [
+        "Mighty games"
+      ],
+      "demos": []
+    },
+    "2680810": {
+      "developers": [
+        "Idan Rooze"
+      ],
+      "publishers": [
+        "Idan Rooze"
+      ],
+      "demos": []
+    },
+    "2704210": {
+      "developers": [
+        "Alex Klexber"
+      ],
+      "publishers": [
+        "Alex Klexber"
+      ],
+      "demos": [
+        {
+          "appid": 3150230
+        }
+      ]
+    },
+    "2722610": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2",
+        "GrabTheGames"
+      ],
+      "demos": [
+        {
+          "appid": 3516070
+        }
+      ]
+    },
+    "2725560": {
+      "developers": [
+        "AO Games"
+      ],
+      "publishers": [
+        "AO Games"
+      ],
+      "demos": []
+    },
+    "2744430": {
+      "developers": [
+        "We Create Stuff"
+      ],
+      "publishers": [
+        "Black Lantern Collective"
+      ],
+      "demos": []
+    },
+    "2744730": {
+      "developers": [
+        "sphynx_owner"
+      ],
+      "publishers": [
+        "sphynx_owner"
+      ],
+      "demos": []
+    },
+    "2750400": {
+      "developers": [
+        "MicroProse Software"
+      ],
+      "publishers": [
+        "MicroProse Software"
+      ],
+      "demos": []
+    },
+    "2759760": {
+      "developers": [
+        "Sunbird Studio"
+      ],
+      "publishers": [
+        "Sunbird Studio"
+      ],
+      "demos": [
+        {
+          "appid": 2899510
+        }
+      ]
+    },
+    "2762740": {
+      "developers": [
+        "Idan Sheinkman"
+      ],
+      "publishers": [
+        "Idan Sheinkman"
+      ],
+      "demos": []
+    },
+    "2771190": {
+      "developers": [
+        "Rabbit Hole Creations"
+      ],
+      "publishers": [
+        "Rabbit Hole Creations"
+      ],
+      "demos": []
+    },
+    "2786550": {
+      "developers": [
+        "Sentinel Games"
+      ],
+      "publishers": [
+        "Sentinel Games"
+      ],
+      "demos": []
+    },
+    "2800450": {
+      "developers": [
+        "EY-Studio"
+      ],
+      "publishers": [
+        "EY-Studio"
+      ],
+      "demos": []
+    },
+    "2843310": {
+      "developers": [
+        "The Man In The Back"
+      ],
+      "publishers": [
+        "The Man In The Back"
+      ],
+      "demos": [
+        {
+          "appid": 2949030
+        }
+      ]
+    },
+    "2854710": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2"
+      ],
+      "demos": [
+        {
+          "appid": 2996760
+        }
+      ]
+    },
+    "2860990": {
+      "developers": [
+        "Idan Rooze"
+      ],
+      "publishers": [
+        "Idan Rooze"
+      ],
+      "demos": [
+        {
+          "appid": 2930540
+        }
+      ]
+    },
+    "2875810": {
+      "developers": [
+        "Double Crow Games"
+      ],
+      "publishers": [
+        "Double Crow Games"
+      ],
+      "demos": []
+    },
+    "2923140": {
+      "developers": [
+        "TriArts"
+      ],
+      "publishers": [
+        "TriArts"
+      ],
+      "demos": []
+    },
+    "2954780": {
+      "developers": [
+        "We Create Stuff"
+      ],
+      "publishers": [
+        "We Create Stuff"
+      ],
+      "demos": []
+    },
+    "3008800": {
+      "developers": [
+        "The Eagle Studios"
+      ],
+      "publishers": [
+        "The Eagle Studios"
+      ],
+      "demos": []
+    },
+    "3009970": {
+      "developers": [
+        "Team Ashan"
+      ],
+      "publishers": [
+        "Team Ashan"
+      ],
+      "demos": []
+    },
+    "3019550": {
+      "developers": [
+        "Peanut Button"
+      ],
+      "publishers": [
+        "Peanut Button"
+      ],
+      "demos": []
+    },
+    "3034960": {
+      "developers": [
+        "Aviv Levy"
+      ],
+      "publishers": [
+        "Aviv Levy"
+      ],
+      "demos": [
+        {
+          "appid": 3760570
+        }
+      ]
+    },
+    "3053130": {
+      "developers": [
+        "Itay Tamir",
+        "Anna Mosienko"
+      ],
+      "publishers": [
+        "Crashzoom Games"
+      ],
+      "demos": []
+    },
+    "3070010": {
+      "developers": [
+        "Time Flies Studios Inc."
+      ],
+      "publishers": [
+        "Time Flies Studios Inc."
+      ],
+      "demos": [
+        {
+          "appid": 3083930
+        }
+      ]
+    },
+    "3079160": {
+      "developers": [
+        "Oren Koren"
+      ],
+      "publishers": [
+        "Oren Koren"
+      ],
+      "demos": [
+        {
+          "appid": 3086530
+        }
+      ]
+    },
+    "3098890": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2",
+        " GrabTheGames"
+      ],
+      "demos": [
+        {
+          "appid": 3099700
+        }
+      ]
+    },
+    "3109010": {
+      "developers": [
+        "Silver Bullet Games"
+      ],
+      "publishers": [
+        "Silver Bullet Games"
+      ],
+      "demos": []
+    },
+    "3112340": {
+      "developers": [
+        "Alexander Zmeev",
+        "Sergey Zmeev"
+      ],
+      "publishers": [
+        "ZMV Studio "
+      ],
+      "demos": [
+        {
+          "appid": 4388090
+        }
+      ]
+    },
+    "3118380": {
+      "developers": [
+        "Games for Jonathan"
+      ],
+      "publishers": [
+        "Games for Jonathan"
+      ],
+      "demos": []
+    },
+    "3141860": {
+      "developers": [
+        "Fooya Games"
+      ],
+      "publishers": [
+        "Fooya Games"
+      ],
+      "demos": [
+        {
+          "appid": 3258160
+        }
+      ]
+    },
+    "3144950": {
+      "developers": [
+        "Tbjbu2, Adria Martinez Exposito"
+      ],
+      "publishers": [
+        "Tbjbu2",
+        " GrabTheGames"
+      ],
+      "demos": [
+        {
+          "appid": 3152570
+        }
+      ]
+    },
+    "3157920": {
+      "developers": [
+        "Visionary Games"
+      ],
+      "publishers": [
+        "Visionary Games"
+      ],
+      "demos": []
+    },
+    "3180280": {
+      "developers": [
+        "Laniarkea Games"
+      ],
+      "publishers": [
+        "Laniarkea Games"
+      ],
+      "demos": []
+    },
+    "3184250": {
+      "developers": [
+        "dietzribi"
+      ],
+      "publishers": [
+        "dietzribi"
+      ],
+      "demos": []
+    },
+    "3225860": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2"
+      ],
+      "demos": []
+    },
+    "3226680": {
+      "developers": [
+        "ISRACHEM LTD"
+      ],
+      "publishers": [
+        "ISRACHEM LTD"
+      ],
+      "demos": []
+    },
+    "3265190": {
+      "developers": [
+        "Nadav Hekselman"
+      ],
+      "publishers": [
+        "Nadav Hekselman"
+      ],
+      "demos": []
+    },
+    "3278170": {
+      "developers": [
+        "NightShiftGames"
+      ],
+      "publishers": [
+        "NightShiftGames"
+      ],
+      "demos": []
+    },
+    "3298910": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Clover Bite"
+      ],
+      "demos": [
+        {
+          "appid": 3757970
+        }
+      ]
+    },
+    "3305530": {
+      "developers": [
+        "Itay Ron"
+      ],
+      "publishers": [
+        "Itay Ron"
+      ],
+      "demos": [
+        {
+          "appid": 3369540
+        }
+      ]
+    },
+    "3333990": {
+      "developers": [
+        "Legion Studio, Inc"
+      ],
+      "publishers": [
+        "Legion Studio, Inc"
+      ],
+      "demos": []
+    },
+    "3402390": {
+      "developers": [
+        "Andralamusia Studios"
+      ],
+      "publishers": [
+        "Andralamusia Studios"
+      ],
+      "demos": [
+        {
+          "appid": 3463970
+        }
+      ]
+    },
+    "3432800": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Clover Bite"
+      ],
+      "demos": [
+        {
+          "appid": 3548410
+        }
+      ]
+    },
+    "3464670": {
+      "developers": [
+        "Doctor Shinobi"
+      ],
+      "publishers": [
+        "Doctor Shinobi"
+      ],
+      "demos": [
+        {
+          "appid": 4326150
+        }
+      ]
+    },
+    "3467750": {
+      "developers": [
+        "Wooltyranny"
+      ],
+      "publishers": [
+        "Wooltyranny"
+      ],
+      "demos": [
+        {
+          "appid": 3549680
+        }
+      ]
+    },
+    "3476660": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "Tbjbu2",
+        "PlayWay S.A."
+      ],
+      "demos": [
+        {
+          "appid": 3487900
+        }
+      ]
+    },
+    "3506750": {
+      "developers": [
+        "Fooya Games"
+      ],
+      "publishers": [
+        "Fooya Games"
+      ],
+      "demos": []
+    },
+    "3516100": {
+      "developers": [
+        "Max Emelyanov"
+      ],
+      "publishers": [
+        "Magnix Games"
+      ],
+      "demos": []
+    },
+    "3531690": {
+      "developers": [
+        "KAFKAF Studio"
+      ],
+      "publishers": [
+        "KAFKAF Studio"
+      ],
+      "demos": []
+    },
+    "3539330": {
+      "developers": [
+        "C1 Innovations"
+      ],
+      "publishers": [
+        "C1 Innovations"
+      ],
+      "demos": []
+    },
+    "3541940": {
+      "developers": [
+        "Luna Duck Studios"
+      ],
+      "publishers": [
+        "Luna Duck Studios"
+      ],
+      "demos": []
+    },
+    "3566940": {
+      "developers": [
+        "ASCAPERIX"
+      ],
+      "publishers": [
+        "ASCAPERIX"
+      ],
+      "demos": []
+    },
+    "3579340": {
+      "developers": [
+        "Dreamjob Studio"
+      ],
+      "publishers": [
+        "Dreamjob Studio"
+      ],
+      "demos": []
+    },
+    "3581050": {
+      "developers": [
+        "Tomer Yadid"
+      ],
+      "publishers": [
+        "Tomer Yadid"
+      ],
+      "demos": []
+    },
+    "3584120": {
+      "developers": [
+        "Crater Studios"
+      ],
+      "publishers": [
+        "Crater Studios"
+      ],
+      "demos": []
+    },
+    "3593490": {
+      "developers": [
+        "We Create Stuff"
+      ],
+      "publishers": [
+        "Black Lantern Collective"
+      ],
+      "demos": []
+    },
+    "3602600": {
+      "developers": [
+        "Sagiv_Reuben",
+        "Dan_Shomrony"
+      ],
+      "publishers": [
+        "Sagiv_Reuben"
+      ],
+      "demos": []
+    },
+    "3613050": {
+      "developers": [
+        "Crater Studios"
+      ],
+      "publishers": [
+        "Crater Studios"
+      ],
+      "demos": [
+        {
+          "appid": 3951020
+        }
+      ]
+    },
+    "3621050": {
+      "developers": [
+        "Crater Studios"
+      ],
+      "publishers": [
+        "Crater Studios"
+      ],
+      "demos": []
+    },
+    "3653660": {
+      "developers": [
+        "Rabbit Hole Creations",
+        "www.rabbitholecreations.studio"
+      ],
+      "publishers": [
+        "Rabbit Hole Creations"
+      ],
+      "demos": []
+    },
+    "3667720": {
+      "developers": [
+        "David Vinokurov"
+      ],
+      "publishers": [
+        "David Vinokurov"
+      ],
+      "demos": []
+    },
+    "3669370": {
+      "developers": [
+        "Moonshine Muffin"
+      ],
+      "publishers": [
+        "Moonshine Muffin"
+      ],
+      "demos": [
+        {
+          "appid": 3684230
+        }
+      ]
+    },
+    "3713290": {
+      "developers": [
+        "Tiny Purple Cat"
+      ],
+      "publishers": [
+        "Tiny Purple Cat"
+      ],
+      "demos": []
+    },
+    "3716590": {
+      "developers": [
+        "Yogurt Studio"
+      ],
+      "publishers": [
+        "Yogurt Studio"
+      ],
+      "demos": [
+        {
+          "appid": 3737890
+        }
+      ]
+    },
+    "3734940": {
+      "developers": [
+        "EpLap Studio"
+      ],
+      "publishers": [
+        "EpLap Studio"
+      ],
+      "demos": [
+        {
+          "appid": 4097360
+        }
+      ]
+    },
+    "3771680": {
+      "developers": [
+        "Epic Sandals"
+      ],
+      "publishers": [
+        "Epic Sandals"
+      ],
+      "demos": []
+    },
+    "3794300": {
+      "developers": [
+        "Tbjbu2"
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
+      "demos": []
+    },
+    "3846450": {
+      "developers": [
+        "FootnoteGames"
+      ],
+      "publishers": [
+        "FootnoteGames"
+      ],
+      "demos": []
+    },
+    "3849930": {
+      "developers": [
+        "Palindrome Games"
+      ],
+      "publishers": [
+        "Palindrome Games"
+      ],
+      "demos": [
+        {
+          "appid": 3957990
+        }
+      ]
+    },
+    "3902490": {
+      "developers": [
+        "Random Game Dev"
+      ],
+      "publishers": [
+        "Random Game Dev"
+      ],
+      "demos": [
+        {
+          "appid": 3917040
+        }
+      ]
+    },
+    "3921340": {
+      "developers": [
+        "Disco69"
+      ],
+      "publishers": [
+        "Disco69"
+      ],
+      "demos": [
+        {
+          "appid": 4182120
+        }
+      ]
+    },
+    "3924170": {
+      "developers": [
+        "Alex Klexber"
+      ],
+      "publishers": [
+        "Alex Klexber"
+      ],
+      "demos": [
+        {
+          "appid": 4343550
+        }
+      ]
+    },
+    "3936940": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Clover Bite"
+      ],
+      "demos": [
+        {
+          "appid": 4355230
+        }
+      ]
+    },
+    "3986630": {
+      "developers": [
+        "Nighty Knight Studio"
+      ],
+      "publishers": [
+        "Nighty Knight Studio"
+      ],
+      "demos": []
+    },
+    "4047130": {
+      "developers": [
+        "nitzan.games LLC"
+      ],
+      "publishers": [
+        "nitzan.games LLC"
+      ],
+      "demos": [
+        {
+          "appid": 4227890
+        }
+      ]
+    },
+    "4086630": {
+      "developers": [
+        "Yuval Eizik"
+      ],
+      "publishers": [
+        "Yuval Eizik"
+      ],
+      "demos": []
+    },
+    "4112440": {
+      "developers": [
+        "Eilan Laken"
+      ],
+      "publishers": [
+        "Eilan Laken"
+      ],
+      "demos": []
+    },
+    "4117250": {
+      "developers": [
+        "Circle Of Hex"
+      ],
+      "publishers": [
+        "Circle Of Hex"
+      ],
+      "demos": []
+    },
+    "4163030": {
+      "developers": [
+        "Capricia Labs"
+      ],
+      "publishers": [
+        "Capricia Productions"
+      ],
+      "demos": [
+        {
+          "appid": 4422620
+        }
+      ]
+    },
+    "4164840": {
+      "developers": [
+        "Bad GOAT Studio",
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Bad GOAT Studio"
+      ],
+      "demos": [
+        {
+          "appid": 4376640
+        }
+      ]
+    },
+    "4232180": {
+      "developers": [
+        "Crumble Studio"
+      ],
+      "publishers": [
+        "Crumble Studio"
+      ],
+      "demos": [
+        {
+          "appid": 4285980
+        }
+      ]
+    },
+    "4255650": {
+      "developers": [
+        "nitzan.games LLC"
+      ],
+      "publishers": [
+        "nitzan.games LLC"
+      ],
+      "demos": [
+        {
+          "appid": 4325510
+        }
+      ]
+    },
+    "4274830": {
+      "developers": [
+        "Ginger Duck"
+      ],
+      "publishers": [
+        "Ginger Duck"
+      ],
+      "demos": [
+        {
+          "appid": 4280110
+        }
+      ]
+    },
+    "4282680": {
+      "developers": [
+        "Gilad frankel"
+      ],
+      "publishers": [
+        "Gilad frankel"
+      ],
+      "demos": []
+    },
+    "4292150": {
+      "developers": [
+        "slowcatgames"
+      ],
+      "publishers": [
+        "slowcatgames"
+      ],
+      "demos": [
+        {
+          "appid": 4309170
+        }
+      ]
+    },
+    "4304930": {
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Clover Bite"
+      ],
+      "demos": [
+        {
+          "appid": 4347420
+        }
+      ]
+    },
+    "4373500": {
+      "developers": [
+        "Niv Kor"
+      ],
+      "publishers": [
+        "Multitoon"
+      ],
+      "demos": []
+    }
+  },
+  "demos": {
+    "498290": {
+      "release_date": "17 Aug, 2016",
+      "coming_soon": false
+    },
+    "565420": {
+      "release_date": "8 Feb, 2017",
+      "coming_soon": false
+    },
+    "1092960": {
+      "release_date": "27 May, 2019",
+      "coming_soon": false
+    },
+    "1269460": {
+      "release_date": "11 Jun, 2020",
+      "coming_soon": false
+    },
+    "1292470": {
+      "release_date": "22 Apr, 2020",
+      "coming_soon": false
+    },
+    "1295050": {
+      "release_date": "21 Apr, 2020",
+      "coming_soon": false
+    },
+    "1304040": {
+      "release_date": "16 Jun, 2020",
+      "coming_soon": false
+    },
+    "1448210": {
+      "release_date": "29 Oct, 2020",
+      "coming_soon": false
+    },
+    "1524090": {
+      "release_date": "14 Jun, 2021",
+      "coming_soon": false
+    },
+    "1669510": {
+      "release_date": "16 Jun, 2021",
+      "coming_soon": false
+    },
+    "1886710": {
+      "release_date": "8 Feb, 2022",
+      "coming_soon": false
+    },
+    "1897210": {
+      "release_date": "20 Feb, 2022",
+      "coming_soon": false
+    },
+    "1983440": {
+      "release_date": "18 May, 2022",
+      "coming_soon": false
+    },
+    "2092440": {
+      "release_date": "5 Aug, 2022",
+      "coming_soon": false
+    },
+    "2143900": {
+      "release_date": "8 Sep, 2022",
+      "coming_soon": false
+    },
+    "2180790": {
+      "release_date": "11 Oct, 2022",
+      "coming_soon": false
+    },
+    "2182330": {
+      "release_date": "14 Oct, 2022",
+      "coming_soon": false
+    },
+    "2341400": {
+      "release_date": "7 Mar, 2023",
+      "coming_soon": false
+    },
+    "2394850": {
+      "release_date": "16 Aug, 2023",
+      "coming_soon": false
+    },
+    "2426180": {
+      "release_date": "18 Jun, 2023",
+      "coming_soon": false
+    },
+    "2496450": {
+      "release_date": "3 Aug, 2023",
+      "coming_soon": false
+    },
+    "2519730": {
+      "release_date": "9 Jun, 2025",
+      "coming_soon": false
+    },
+    "2545640": {
+      "release_date": "8 Oct, 2023",
+      "coming_soon": false
+    },
+    "2577000": {
+      "release_date": "28 Sep, 2023",
+      "coming_soon": false
+    },
+    "2899510": {
+      "release_date": "27 May, 2024",
+      "coming_soon": false
+    },
+    "2918050": {
+      "release_date": "17 Apr, 2024",
+      "coming_soon": false
+    },
+    "2930540": {
+      "release_date": "26 Apr, 2024",
+      "coming_soon": false
+    },
+    "2949030": {
+      "release_date": "24 Apr, 2024",
+      "coming_soon": false
+    },
+    "2996760": {
+      "release_date": "9 Jun, 2024",
+      "coming_soon": false
+    },
+    "3066000": {
+      "release_date": "8 Jul, 2024",
+      "coming_soon": false
+    },
+    "3083930": {
+      "release_date": "25 Sep, 2025",
+      "coming_soon": false
+    },
+    "3086530": {
+      "release_date": "10 Jul, 2025",
+      "coming_soon": false
+    },
+    "3099700": {
+      "release_date": "20 Aug, 2024",
+      "coming_soon": false
+    },
+    "3150230": {
+      "release_date": "13 Aug, 2024",
+      "coming_soon": false
+    },
+    "3152570": {
+      "release_date": "30 Aug, 2024",
+      "coming_soon": false
+    },
+    "3258160": {
+      "release_date": "9 Oct, 2024",
+      "coming_soon": false
+    },
+    "3369540": {
+      "release_date": "2 Dec, 2024",
+      "coming_soon": false
+    },
+    "3432740": {
+      "release_date": "13 Jan, 2025",
+      "coming_soon": false
+    },
+    "3463970": {
+      "release_date": "8 Jun, 2025",
+      "coming_soon": false
+    },
+    "3487900": {
+      "release_date": "3 Feb, 2025",
+      "coming_soon": false
+    },
+    "3516070": {
+      "release_date": "15 Feb, 2025",
+      "coming_soon": false
+    },
+    "3548410": {
+      "release_date": "30 Jun, 2025",
+      "coming_soon": false
+    },
+    "3549680": {
+      "release_date": "17 Mar, 2025",
+      "coming_soon": false
+    },
+    "3684230": {
+      "release_date": "26 May, 2025",
+      "coming_soon": false
+    },
+    "3737890": {
+      "release_date": "17 May, 2025",
+      "coming_soon": false
+    },
+    "3757970": {
+      "release_date": "29 May, 2025",
+      "coming_soon": false
+    },
+    "3760570": {
+      "release_date": "9 Jun, 2025",
+      "coming_soon": false
+    },
+    "3917040": {
+      "release_date": "9 Aug, 2025",
+      "coming_soon": false
+    },
+    "3951020": {
+      "release_date": "21 Aug, 2025",
+      "coming_soon": false
+    },
+    "3957990": {
+      "release_date": "11 Oct, 2025",
+      "coming_soon": false
+    },
+    "4025170": {
+      "release_date": "20 Nov, 2025",
+      "coming_soon": false
+    },
+    "4097360": {
+      "release_date": "10 Oct, 2025",
+      "coming_soon": false
+    },
+    "4154870": {
+      "release_date": "13 Nov, 2025",
+      "coming_soon": false
+    },
+    "4182120": {
+      "release_date": "28 Jan, 2026",
+      "coming_soon": false
+    },
+    "4227890": {
+      "release_date": "6 Dec, 2025",
+      "coming_soon": false
+    },
+    "4280110": {
+      "release_date": "28 Jan, 2026",
+      "coming_soon": false
+    },
+    "4309170": {
+      "release_date": "13 Jan, 2026",
+      "coming_soon": false
+    },
+    "4325510": {
+      "release_date": "21 Jan, 2026",
+      "coming_soon": false
+    },
+    "4326150": {
+      "release_date": "2 Feb, 2026",
+      "coming_soon": false
+    },
+    "4343550": {
+      "release_date": "3 Feb, 2026",
+      "coming_soon": false
+    },
+    "4347420": {
+      "release_date": "27 Jan, 2026",
+      "coming_soon": false
+    },
+    "4347920": {
+      "release_date": "10 Feb, 2026",
+      "coming_soon": false
+    },
+    "4355230": {
+      "release_date": "3 Feb, 2026",
+      "coming_soon": false
+    },
+    "4376640": {
+      "release_date": "3 Feb, 2026",
+      "coming_soon": false
+    },
+    "4388090": {
+      "release_date": "12 Feb, 2026",
+      "coming_soon": false
+    },
+    "4422620": {
+      "release_date": "16 Feb, 2026",
+      "coming_soon": false
+    }
+  }
+}
