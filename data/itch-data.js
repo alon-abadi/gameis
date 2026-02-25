@@ -2,6 +2,84 @@
 window.ITCH_CREATORS_DATA = {
   "creators": [
     {
+      "slug": "alon-tzarafi",
+      "name": "Alon Tzarafi",
+      "bio": null,
+      "profileUrl": "https://alont.itch.io/",
+      "games": [
+        {
+          "name": "OOPs",
+          "url": "https://alont.itch.io/oops",
+          "image": "https://img.itch.zone/aW1nLzI1NDczNzUyLnBuZw==/original/XiDKVr.png",
+          "tagline": "Stranded in space with nothing but a terminal, a keyboard and some bullets"
+        },
+        {
+          "name": "Infinite Armada Prototype",
+          "url": "https://alont.itch.io/infinite-armada-prototype",
+          "image": "https://img.itch.zone/aW1nLzE5NzMxMzE1LmpwZw==/original/3UwTWb.jpg",
+          "tagline": "Command tens of thousands of ships. Each click sends 500 ships to the target"
+        },
+        {
+          "name": "Australia Walking Simulator",
+          "url": "https://alont.itch.io/australia-walking-simulator",
+          "image": "https://img.itch.zone/aW1nLzE5NTc5NjQ5LmpwZw==/original/vTe02a.jpg",
+          "tagline": "Make 25,000 friends and stay alive. You do like spiders don't you?"
+        }
+      ]
+    },
+    {
+      "slug": "dancingengie",
+      "name": "DancingEngie",
+      "bio": null,
+      "profileUrl": "https://dancingengie.itch.io/",
+      "games": [
+        {
+          "name": "ULTRA ADHD",
+          "url": "https://dancingengie.itch.io/adhd",
+          "image": "https://img.itch.zone/aW1nLzQzMjQwNTEucG5n/original/PoIQG8.png",
+          "tagline": "A Video Game About THINGS."
+        },
+        {
+          "name": "Venus Looks for Jupiter",
+          "url": "https://dancingengie.itch.io/venus",
+          "image": "https://img.itch.zone/aW1nLzgzMDM4MTYucG5n/original/Nc7shs.png",
+          "tagline": "Run for your love."
+        },
+        {
+          "name": "One Tank in May",
+          "url": "https://dancingengie.itch.io/tank",
+          "image": "https://img.itch.zone/aW1nLzM4NzA0NzYucG5n/original/ijawSv.png",
+          "tagline": "An FPS based on a true myth."
+        }
+      ]
+    },
+    {
+      "slug": "ori-brusilovsky",
+      "name": "Ori Brusilovsky",
+      "bio": null,
+      "profileUrl": "https://brusi.itch.io/",
+      "games": [
+        {
+          "name": "Prickle",
+          "url": "https://sunbirdstudio.itch.io/prickle",
+          "image": "https://img.itch.zone/aW1nLzE4Nzc2MzA1LnBuZw==/original/AIvsmn.png",
+          "tagline": "Play father hedgehog on a quest to bring his prickly children back home, in this wholesome grid-based puzzle."
+        },
+        {
+          "name": "Bibi Run!",
+          "url": "https://sunbirdstudio.itch.io/bibirun",
+          "image": "https://img.itch.zone/aW1nLzEzMDc0ODQxLnBuZw==/original/FjZUff.png",
+          "tagline": "Bibi against the protest, 2023"
+        },
+        {
+          "name": "RGB",
+          "url": "https://brusi.itch.io/rgb",
+          "image": "https://img.itch.zone/aW1nLzM5NzkyNDIucG5n/original/MgfwGh.png",
+          "tagline": "Unique Retro Puzzle Adventure (in development)"
+        }
+      ]
+    },
+    {
       "slug": "indistinct-chatter",
       "name": "Indistinct Chatter",
       "bio": "Nadav Hekselman",
