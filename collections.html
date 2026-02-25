@@ -228,22 +228,27 @@
 
         var section = document.createElement("section");
         section.className = "collection";
+        section.id = group.slug;
 
         var heading = document.createElement("h2");
         heading.className = "collection-name";
-        if (group.url) {
-          var nameLink = document.createElement("a");
-          nameLink.href = group.url;
-          nameLink.target = "_blank";
-          nameLink.rel = "noopener";
-          nameLink.textContent = group.name;
-          nameLink.style.color = "var(--accent)";
-          nameLink.style.textDecoration = "none";
-          heading.appendChild(nameLink);
-        } else {
-          heading.textContent = group.name;
-        }
+        var nameLink = document.createElement("a");
+        nameLink.href = "#" + group.slug;
+        nameLink.textContent = group.name;
+        nameLink.style.color = "var(--accent)";
+        nameLink.style.textDecoration = "none";
+        heading.appendChild(nameLink);
         section.appendChild(heading);
+
+        if (group.url) {
+          var urlLink = document.createElement("a");
+          urlLink.href = group.url;
+          urlLink.target = "_blank";
+          urlLink.rel = "noopener";
+          urlLink.textContent = group.url;
+          urlLink.style.fontSize = "0.9em";
+          section.appendChild(urlLink);
+        }
 
         if (group.description) {
           var desc = document.createElement("p");
