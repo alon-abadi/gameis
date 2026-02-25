@@ -93,3 +93,11 @@ games: 1275670, 3464670
 name: Horror & Dark
 games: 1119980, 1268790, 1182410, 1367050, 1559990, 1910360, 2587380, 2744430, 2954780, 3019550, 3464670, 3593490, 3613050, 3669370, 3716590
 15 משחקי אימה ומשחקים אפלים מאולפנים שונים, כולל Dark Fracture, Nightmare House, In Sound Mind, Gravebound ועוד
+
+# PirateGames
+name: Pirate Games
+games: 3278170, 1292310, 2860990
+
+# HebrewGames
+name: משחקים בעברית
+games: 1092950, 1303950, 1029650, 1275670
