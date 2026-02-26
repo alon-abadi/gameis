@@ -170,10 +170,16 @@ window.ITCH_CREATORS_DATA = {
           "tagline": "A puzzle game where you're not always in control."
         },
         {
-          "name": "Communite",
-          "url": "https://jimjum.itch.io/communite",
-          "image": "https://img.itch.zone/aW1nLzEzMjE5ODM5LnBuZw==/original/dz1fFB.png",
-          "tagline": "A creative multiplayer city-builder"
+          "name": "Rettro",
+          "url": "https://lonebot.itch.io/rettro",
+          "image": "https://img.itch.zone/aW1nLzQ3MTYwOTUucG5n/original/s40TrY.png",
+          "tagline": "Climb the DNA strands and heal the corrupted MECP2 gene to cure Rett Syndrome!"
+        },
+        {
+          "name": "Slimes in Space",
+          "url": "https://lonebot.itch.io/slimes-in-space",
+          "image": "https://img.itch.zone/aW1nLzYyNzA4NjcucG5n/original/C1O%2BvA.png",
+          "tagline": "Sleepy slimes join together to put the stars in the sky."
         }
       ]
     },
