@@ -386,6 +386,32 @@ window.ITCH_CREATORS_DATA = {
       ]
     },
     {
+      "slug": "de-panther",
+      "name": "De-Panther",
+      "bio": "WebXR game developer",
+      "profileUrl": "https://de-panther.itch.io/",
+      "games": [
+        {
+          "name": "DualiTower",
+          "url": "https://de-panther.itch.io/dualitower",
+          "image": "https://img.itch.zone/aW1nLzgwMDMyODUucG5n/347x500/ZkUoGJ.png",
+          "tagline": "Match opposite blocks to build a tower. Supports WebXR"
+        },
+        {
+          "name": "Solar System WebXR",
+          "url": "https://de-panther.itch.io/solar-system-webxr",
+          "image": "https://img.itch.zone/aW1nLzExNzQ2Mzg4LnBuZw==/347x500/JLbykE.png",
+          "tagline": "Solar System toy in WebXR"
+        },
+        {
+          "name": "Worlds Demolisher",
+          "url": "https://worldsdemolisher.totalviz.com/",
+          "image": null,
+          "tagline": "Destroy worlds, travel between worlds, upgrade your spaceship"
+        }
+      ]
+    },
+    {
       "slug": "nir-zaid",
       "name": "Nir Zaid",
       "bio": null,
