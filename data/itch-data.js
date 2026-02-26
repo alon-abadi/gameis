@@ -8,22 +8,22 @@ window.ITCH_CREATORS_DATA = {
       "profileUrl": "https://alont.itch.io/",
       "games": [
         {
-          "name": "OOPs",
-          "url": "https://alont.itch.io/oops",
-          "image": "https://img.itch.zone/aW1nLzI1NDczNzUyLnBuZw==/original/XiDKVr.png",
-          "tagline": "Stranded in space with nothing but a terminal, a keyboard and some bullets"
+          "name": "OverWired",
+          "url": "https://alont.itch.io/overwired",
+          "image": "https://img.itch.zone/aW1nLzI4MDk1MDEuZ2lm/original/wJ6g%2Fo.gif",
+          "tagline": "A retro cyberpunk side-scroller where every player action performs multiple actions"
         },
         {
-          "name": "Infinite Armada Prototype",
-          "url": "https://alont.itch.io/infinite-armada-prototype",
-          "image": "https://img.itch.zone/aW1nLzE5NzMxMzE1LmpwZw==/original/3UwTWb.jpg",
-          "tagline": "Command tens of thousands of ships. Each click sends 500 ships to the target"
+          "name": "Modu Beats",
+          "url": "https://alont.itch.io/modu-beats",
+          "image": "https://img.itch.zone/aW1nLzI1MjA3MTIucG5n/original/lTpHYT.png",
+          "tagline": "A musical tower-defence game. The music fuels your weapons - and vice versa"
         },
         {
-          "name": "Australia Walking Simulator",
-          "url": "https://alont.itch.io/australia-walking-simulator",
-          "image": "https://img.itch.zone/aW1nLzE5NTc5NjQ5LmpwZw==/original/vTe02a.jpg",
-          "tagline": "Make 25,000 friends and stay alive. You do like spiders don't you?"
+          "name": "Mech Bearer",
+          "url": "https://alont.itch.io/mech-bearer",
+          "image": "https://img.itch.zone/aW1hZ2UvNzkwNzEvMzcwMjcyLnBuZw==/original/5GCSXH.png",
+          "tagline": "GIANT ROBOT, help guide the weak spirited hero whom you can't control"
         }
       ]
     },
