@@ -56,9 +56,11 @@ window.GAME_CONTEXT_DATA = {
       "games": [
         "3019550",
         "923100",
-        "3667720"
+        "3667720",
+        "https://firefliesjar.itch.io/runitback",
+        "https://yerushalmi.itch.io/prophet"
       ],
-      "description": "This collection celebrates the winners of the 2025 7 Wells Israeli Indie Game Awards, held in Beersheba. Featuring Riddlewood Manor, Moduwar, and Heroes Against Time, these three titles represent the best of Israel's indie game scene as recognized by the 7 Wells community."
+      "description": "This collection celebrates the winners of the 2025 7 Wells Israeli Indie Game Awards, held in Beersheba. Featuring Riddlewood Manor, Moduwar, Heroes Against Time, Run it Back, and Prophet, these titles represent the best of Israel's indie game scene as recognized by the 7 Wells community."
     },
     {
       "slug": "SummerDemos2025",
