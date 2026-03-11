@@ -201,6 +201,7 @@
   </footer>
 
   <script src="data/data.js"></script>
+  <script src="data/itch-data.js"></script>
   <script src="data/context-data.js"></script>
   <script>
     (function () {
@@ -220,6 +221,19 @@
         var games = DATA.byYear[years[i]];
         for (var j = 0; j < games.length; j++) {
           gameMap[String(games[j].SteamID)] = games[j];
+        }
+      }
+
+      // Build itch URL -> game lookup
+      var itchMap = {};
+      var ITCH = window.ITCH_CREATORS_DATA;
+      if (ITCH && ITCH.creators) {
+        for (var c = 0; c < ITCH.creators.length; c++) {
+          var creator = ITCH.creators[c];
+          for (var gi = 0; gi < creator.games.length; gi++) {
+            var ig = creator.games[gi];
+            if (ig.url) itchMap[ig.url] = ig;
+          }
         }
       }
 
@@ -261,9 +275,14 @@
         grid.className = "collection-games";
 
         for (var k = 0; k < group.games.length; k++) {
-          var game = gameMap[group.games[k]];
-          if (!game) continue;
-          grid.appendChild(createCard(game));
+          var id = group.games[k];
+          if (id.indexOf("http") === 0) {
+            var itchGame = itchMap[id];
+            if (itchGame) grid.appendChild(createItchCard(itchGame));
+          } else {
+            var game = gameMap[id];
+            if (game) grid.appendChild(createCard(game));
+          }
         }
 
         section.appendChild(grid);
@@ -318,6 +337,55 @@
           }
           info.appendChild(badges);
         }
+
+        link.appendChild(info);
+        card.appendChild(link);
+        return card;
+      }
+
+      function createItchCard(game) {
+        var card = document.createElement("div");
+        card.className = "game-card";
+
+        var link = document.createElement("a");
+        link.href = game.url;
+        link.target = "_blank";
+        link.rel = "noopener";
+
+        if (game.image) {
+          var img = document.createElement("img");
+          img.src = game.image;
+          img.alt = game.name;
+          img.loading = "lazy";
+          img.width = 292;
+          img.height = 136;
+          img.style.objectFit = "cover";
+          link.appendChild(img);
+        }
+
+        var info = document.createElement("div");
+        info.className = "game-info";
+
+        var name = document.createElement("div");
+        name.className = "game-name";
+        name.textContent = game.name;
+        name.title = game.name;
+        info.appendChild(name);
+
+        if (game.tagline) {
+          var tagline = document.createElement("div");
+          tagline.className = "game-date";
+          tagline.textContent = game.tagline;
+          info.appendChild(tagline);
+        }
+
+        var badges = document.createElement("div");
+        badges.className = "game-badges";
+        var b = document.createElement("span");
+        b.className = "badge badge-ea";
+        b.textContent = "itch.io";
+        badges.appendChild(b);
+        info.appendChild(badges);
 
         link.appendChild(info);
         card.appendChild(link);

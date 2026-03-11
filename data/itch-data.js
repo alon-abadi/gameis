@@ -458,6 +458,58 @@ window.ITCH_CREATORS_DATA = {
       ]
     },
     {
+      "slug": "amirblum",
+      "name": "Amir Blum",
+      "bio": "Jerusalem-based game developer. 1/2 of Unboxed. MakeGamesJLM organizer",
+      "profileUrl": "https://amirblum.itch.io/",
+      "games": [
+        {
+          "name": "Light of the World",
+          "url": "https://amirblum.itch.io/light-of-the-world",
+          "image": "https://img.itch.zone/aW1nLzI0NjE5ODk4LnBuZw==/347x500/MCKaPd.png",
+          "tagline": "From darkness comes rot. From light comes dance."
+        },
+        {
+          "name": "Bubbleshka",
+          "url": "https://amirblum.itch.io/bubbleshka",
+          "image": "https://img.itch.zone/aW1nLzE5NTI0NTM2LnBuZw==/original/xeweuM.png",
+          "tagline": "Mini-golf meets nested dolls"
+        },
+        {
+          "name": "Run it Back",
+          "url": "https://firefliesjar.itch.io/runitback",
+          "image": "https://img.itch.zone/aW1nLzIyNTM2Njc4LnBuZw==/347x500/X0VYdw.png",
+          "tagline": "Going nowhere has never felt so familiar."
+        }
+      ]
+    },
+    {
+      "slug": "firefliesjar",
+      "name": "FirefliesJar",
+      "bio": null,
+      "profileUrl": "https://firefliesjar.itch.io/",
+      "games": [
+        {
+          "name": "MeowLord",
+          "url": "https://firefliesjar.itch.io/meowlord",
+          "image": "https://img.itch.zone/aW1hZ2UvMzY2Njk3Mi8yMjIxOTY4NS5wbmc=/347x500/Ui5o9h.png",
+          "tagline": "Sharpen your claws. Ready your yarn. It's time to catch some rats."
+        },
+        {
+          "name": "Thinglings",
+          "url": "https://firefliesjar.itch.io/thinglings",
+          "image": "https://img.itch.zone/aW1nLzI1NjE4MjA4LnBuZw==/347x500/hrOLZW.png",
+          "tagline": "Two beings, born by accident, must bond and tear apart to survive their creator's wrath"
+        },
+        {
+          "name": "Run it Back",
+          "url": "https://firefliesjar.itch.io/runitback",
+          "image": "https://img.itch.zone/aW1nLzIyNTM2Njc4LnBuZw==/347x500/X0VYdw.png",
+          "tagline": "Going nowhere has never felt so familiar."
+        }
+      ]
+    },
+    {
       "slug": "nir-zaid",
       "name": "Nir Zaid",
       "bio": null,
