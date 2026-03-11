@@ -412,6 +412,52 @@ window.ITCH_CREATORS_DATA = {
       ]
     },
     {
+      "slug": "yam-chay",
+      "name": "yam-chay",
+      "bio": null,
+      "profileUrl": "https://yam-chay.itch.io/",
+      "games": [
+        {
+          "name": "Piggy in Wonderland",
+          "url": "https://yam-chay.itch.io/piggy-in-wonderland",
+          "image": "https://img.itch.zone/aW1hZ2UvMzQ5NzA0MC8yMDg1Nzc0Mi5wbmc=/347x500/85nnoA.png",
+          "tagline": "A game about pig and wonders"
+        },
+        {
+          "name": "Space Invaders: Beyond",
+          "url": "https://yam-chay.itch.io/space-invaders-beyond",
+          "image": "https://img.itch.zone/aW1nLzIwODExMzQ5LnBuZw==/347x500/XvyR88.png",
+          "tagline": "A short shoot 'em up, space action game"
+        },
+        {
+          "name": "Floppy Bird",
+          "url": "https://yam-chay.itch.io/floppy-bird",
+          "image": "https://img.itch.zone/aW1nLzIwODg2NzE1LnBuZw==/347x500/tmSj7K.png",
+          "tagline": "A small highscore project, keep the bird alive"
+        }
+      ]
+    },
+    {
+      "slug": "unboxed",
+      "name": "Unboxed",
+      "bio": null,
+      "profileUrl": "https://unboxed.itch.io/",
+      "games": [
+        {
+          "name": "Scramballed: Chicken Tennis!",
+          "url": "https://unboxed.itch.io/scramballed",
+          "image": "https://img.itch.zone/aW1nLzExMzgwODM5LmpwZw==/original/iZlYfV.jpg",
+          "tagline": "Smash your friends in the face with eggs in the ultimate chicken showdown!"
+        },
+        {
+          "name": "Temporal",
+          "url": "https://unboxed.itch.io/temporal",
+          "image": "https://img.itch.zone/aW1hZ2UvNDUyMTc1LzIzMjg1NTIuanBn/347x500/Fv5tdi.jpg",
+          "tagline": "Time travel narrative-puzzler sharing the experience of Anxiety"
+        }
+      ]
+    },
+    {
       "slug": "nir-zaid",
       "name": "Nir Zaid",
       "bio": null,
