@@ -27,7 +27,7 @@ games: 3924170, 2704210, 2259340
 
 # AwardWinners
 name: 7 Wells Indie Game Awards 2025
-games: 3019550, 923100, 3667720, https://firefliesjar.itch.io/runitback
+games: 3019550, 923100, 3667720, https://firefliesjar.itch.io/runitback, https://yerushalmi.itch.io/prophet
 
 # SummerDemos2025
 name: Steam Next Fest June 2025
