@@ -13,6 +13,7 @@ const OUTPUT_DIR = path.join(BASE_DIR, "data");
 const CONTEXT_FILE = path.join(BASE_DIR, "context.md");
 const GROUPS_FILE = path.join(BASE_DIR, "groups.md");
 const CACHE_FILE = path.join(BASE_DIR, "context-generated.json");
+const ITCH_DATA_FILE = path.join(OUTPUT_DIR, "itch-data.js");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "context-data.js");
 
 const API_MODEL = "claude-sonnet-4-20250514";
@@ -46,6 +47,26 @@ function loadGamedataMap() {
     } catch (err) {
       console.error(`Failed to read/parse gamedata/${file}:`, err.message);
     }
+  }
+  return map;
+}
+
+function loadItchGameMap() {
+  const map = new Map();
+  if (!fs.existsSync(ITCH_DATA_FILE)) return map;
+  const raw = fs.readFileSync(ITCH_DATA_FILE, "utf8");
+  // Extract JSON from the JS file (window.ITCH_CREATORS_DATA = {...};)
+  const match = raw.match(/window\.ITCH_CREATORS_DATA\s*=\s*(\{[\s\S]*\});/);
+  if (!match) return map;
+  try {
+    const data = JSON.parse(match[1]);
+    for (const creator of data.creators || []) {
+      for (const game of creator.games || []) {
+        if (game.url) map.set(game.url, game);
+      }
+    }
+  } catch (err) {
+    console.error("Failed to parse itch-data.js:", err.message);
   }
   return map;
 }
@@ -298,6 +319,7 @@ async function main() {
 
   // Load gamedata for enrichment
   const gamedataMap = loadGamedataMap();
+  const itchGameMap = loadItchGameMap();
 
   let apiCalls = 0;
   let cacheHits = 0;
@@ -346,6 +368,10 @@ async function main() {
   // Process groups
   for (const group of groupEntries) {
     const gameNames = group.games.map((id) => {
+      if (id.startsWith("http")) {
+        const itch = itchGameMap.get(id);
+        return itch ? itch.name : id;
+      }
       const steam = gamedataMap.get(id);
       return steam ? steam.name : `SteamID ${id}`;
     });
