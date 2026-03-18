@@ -29,7 +29,13 @@
       "release_date": "31 Mar, 2026"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "SteamID": 3079160,
+      "name": "Don't Lose Aggro",
+      "release_date": "Apr 15, 2026"
+    }
+  ],
   "5": [
     {
       "SteamID": 4086630,
