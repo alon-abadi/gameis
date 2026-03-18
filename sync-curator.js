@@ -174,7 +174,12 @@ function getGamesToFetch(curatorAppIds, tracking, avoidSet) {
       continue;
     }
 
-    if (tracked.released) continue;
+    if (tracked.released) {
+      const gameFile = path.join(GAMEDATA_DIR, `${appId}.json`);
+      const gameData = loadJson(gameFile);
+      if (!gameData || !gameData.ea) continue;
+      // EA game wrongly marked released — fall through to refetch checks
+    }
 
     // Always refetch games with no concrete release date
     const gameFile = path.join(GAMEDATA_DIR, `${appId}.json`);
@@ -239,7 +244,14 @@ function buildGameObject(appData) {
 }
 
 function isReleased(appData) {
-  return appData.release_date && appData.release_date.coming_soon === false;
+  const isEarlyAccess =
+    Array.isArray(appData.genres) &&
+    appData.genres.some((g) => g.description === "Early Access");
+  return (
+    !isEarlyAccess &&
+    appData.release_date &&
+    appData.release_date.coming_soon === false
+  );
 }
 
 // ---- release date parsing ----
