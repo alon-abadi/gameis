@@ -39,6 +39,16 @@
       "SteamID": 3079160,
       "name": "Don't Lose Aggro",
       "release_date": "Apr 15, 2026"
+    },
+    {
+      "SteamID": 3053130,
+      "name": "Tokyo Trigger",
+      "release_date": "Apr 17, 2026"
+    },
+    {
+      "SteamID": 3716590,
+      "name": "Hideous",
+      "release_date": "Apr 16, 2026"
     }
   ],
   "5": [
@@ -55,7 +65,13 @@
       "release_date": "June 2026"
     }
   ],
-  "7": [],
+  "7": [
+    {
+      "SteamID": 4078110,
+      "name": "Suncraft",
+      "release_date": "July 2026"
+    }
+  ],
   "8": [],
   "9": [],
   "10": [],
@@ -130,6 +146,11 @@
     {
       "SteamID": 4200060,
       "name": "Tyrants Rafting",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 4544200,
+      "name": "True Confession",
       "release_date": "2026"
     }
   ]

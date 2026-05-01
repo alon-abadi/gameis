@@ -45,6 +45,11 @@
     "release_date": "Coming soon"
   },
   {
+    "SteamID": 4525440,
+    "name": "Cheese Pull",
+    "release_date": "To be announced"
+  },
+  {
     "SteamID": 1804380,
     "name": "CLAN WARS",
     "release_date": "Coming soon"
@@ -260,8 +265,8 @@
     "release_date": "Coming soon"
   },
   {
-    "SteamID": 3053130,
-    "name": "Tokyo Trigger",
+    "SteamID": 4086630,
+    "name": "TingBase",
     "release_date": "Coming soon"
   },
   {
@@ -270,8 +275,18 @@
     "release_date": "To be announced"
   },
   {
+    "SteamID": 4556050,
+    "name": "Tzelem",
+    "release_date": "To be announced"
+  },
+  {
     "SteamID": 2513270,
     "name": "UvsU: You vs You",
+    "release_date": "To be announced"
+  },
+  {
+    "SteamID": 4620420,
+    "name": "Void Commander: Armada",
     "release_date": "To be announced"
   },
   {
