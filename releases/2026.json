@@ -63,6 +63,11 @@
       "SteamID": 2577730,
       "name": "Golel",
       "release_date": "June 2026"
+    },
+    {
+      "SteamID": 4292150,
+      "name": "Songtail: Whiskers of Destiny",
+      "release_date": "Jun 15, 2026"
     }
   ],
   "7": [
@@ -152,6 +157,16 @@
       "SteamID": 4544200,
       "name": "True Confession",
       "release_date": "2026"
+    },
+    {
+      "SteamID": 4608930,
+      "name": "Friendship vs The World",
+      "release_date": "2026"
+    },
+    {
+      "SteamID": 4730280,
+      "name": "Hellsino Pokerlike",
+      "release_date": "Q3 2026"
     }
   ]
 }
