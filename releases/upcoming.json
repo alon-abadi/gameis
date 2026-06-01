@@ -125,6 +125,11 @@
     "release_date": "To be announced"
   },
   {
+    "SteamID": 3840300,
+    "name": "Gamblers Arena",
+    "release_date": "Coming soon"
+  },
+  {
     "SteamID": 3539330,
     "name": "Human Heritage",
     "release_date": "Coming soon"
@@ -277,11 +282,6 @@
   {
     "SteamID": 4556050,
     "name": "Tzelem",
-    "release_date": "To be announced"
-  },
-  {
-    "SteamID": 2513270,
-    "name": "UvsU: You vs You",
     "release_date": "To be announced"
   },
   {
