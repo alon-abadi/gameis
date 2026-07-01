@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-06-01T07:46:34.864Z",
+  "last_sync": "2026-07-01T07:30:38.313Z",
   "games": {
     "331210": {
       "last_fetched": "2026-02-18T19:54:37.279Z",
@@ -94,7 +94,7 @@
       "released": true
     },
     "1010910": {
-      "last_fetched": "2026-06-01T07:46:34.663Z",
+      "last_fetched": "2026-07-01T07:30:38.048Z",
       "released": false
     },
     "1029650": {
@@ -130,7 +130,7 @@
       "released": true
     },
     "1158190": {
-      "last_fetched": "2026-06-01T07:46:34.592Z",
+      "last_fetched": "2026-07-01T07:30:37.948Z",
       "released": false
     },
     "1161200": {
@@ -142,11 +142,11 @@
       "released": true
     },
     "1182410": {
-      "last_fetched": "2026-06-01T07:46:33.232Z",
+      "last_fetched": "2026-07-01T07:30:36.673Z",
       "released": false
     },
     "1186300": {
-      "last_fetched": "2026-06-01T07:46:34.728Z",
+      "last_fetched": "2026-07-01T07:30:38.137Z",
       "released": false
     },
     "1193780": {
@@ -158,7 +158,7 @@
       "released": true
     },
     "1211220": {
-      "last_fetched": "2026-06-01T07:46:33.911Z",
+      "last_fetched": "2026-07-01T07:30:37.209Z",
       "released": false
     },
     "1248670": {
@@ -170,7 +170,7 @@
       "released": true
     },
     "1268790": {
-      "last_fetched": "2026-06-01T07:46:34.282Z",
+      "last_fetched": "2026-07-01T07:30:37.590Z",
       "released": false
     },
     "1275670": {
@@ -186,7 +186,7 @@
       "released": true
     },
     "1292310": {
-      "last_fetched": "2026-06-01T07:46:34.797Z",
+      "last_fetched": "2026-07-01T07:30:38.226Z",
       "released": false
     },
     "1292410": {
@@ -218,7 +218,7 @@
       "released": false
     },
     "1367050": {
-      "last_fetched": "2026-06-01T07:46:34.382Z",
+      "last_fetched": "2026-07-01T07:30:37.681Z",
       "released": false
     },
     "1446540": {
@@ -230,7 +230,7 @@
       "released": false
     },
     "1483000": {
-      "last_fetched": "2026-06-01T07:46:34.864Z",
+      "last_fetched": "2026-07-01T07:30:38.313Z",
       "released": false
     },
     "1533050": {
@@ -250,7 +250,7 @@
       "released": true
     },
     "1678940": {
-      "last_fetched": "2026-06-01T07:46:34.087Z",
+      "last_fetched": "2026-07-01T07:30:37.392Z",
       "released": false
     },
     "1687020": {
@@ -278,7 +278,7 @@
       "released": true
     },
     "1780000": {
-      "last_fetched": "2026-06-01T07:46:33.465Z",
+      "last_fetched": "2026-07-01T07:30:36.763Z",
       "released": false
     },
     "1790990": {
@@ -286,7 +286,7 @@
       "released": true
     },
     "1804380": {
-      "last_fetched": "2026-06-01T07:46:34.451Z",
+      "last_fetched": "2026-07-01T07:30:37.768Z",
       "released": false
     },
     "1818610": {
@@ -298,7 +298,7 @@
       "released": true
     },
     "1903430": {
-      "last_fetched": "2026-06-01T07:46:34.156Z",
+      "last_fetched": "2026-07-01T07:30:37.499Z",
       "released": false
     },
     "1904820": {
@@ -314,7 +314,7 @@
       "released": true
     },
     "1926070": {
-      "last_fetched": "2026-06-01T07:46:34.523Z",
+      "last_fetched": "2026-07-01T07:30:37.859Z",
       "released": false
     },
     "1947160": {
@@ -326,7 +326,7 @@
       "released": true
     },
     "2016560": {
-      "last_fetched": "2026-06-01T07:46:33.160Z",
+      "last_fetched": "2026-07-01T07:30:36.579Z",
       "released": false
     },
     "2065840": {
@@ -342,7 +342,7 @@
       "released": true
     },
     "2084210": {
-      "last_fetched": "2026-06-01T07:46:33.076Z",
+      "last_fetched": "2026-07-01T07:30:36.493Z",
       "released": false
     },
     "2090040": {
@@ -358,7 +358,7 @@
       "released": true
     },
     "2151850": {
-      "last_fetched": "2026-06-01T07:46:34.019Z",
+      "last_fetched": "2026-07-01T07:30:37.298Z",
       "released": false
     },
     "2160230": {
@@ -366,15 +366,19 @@
       "released": true
     },
     "2210060": {
-      "last_fetched": "2026-06-01T07:46:33.843Z",
+      "last_fetched": "2026-07-01T07:30:37.118Z",
       "released": false
     },
     "2218940": {
-      "last_fetched": "2026-06-01T07:46:30.271Z",
+      "last_fetched": "2026-07-01T07:30:33.485Z",
       "released": false
     },
     "2236300": {
       "last_fetched": "2026-02-18T19:54:07.996Z",
+      "released": true
+    },
+    "2242890": {
+      "last_fetched": "2026-07-01T07:30:32.304Z",
       "released": true
     },
     "2259130": {
@@ -390,7 +394,7 @@
       "released": false
     },
     "2284160": {
-      "last_fetched": "2026-06-01T07:46:33.628Z",
+      "last_fetched": "2026-07-01T07:30:36.851Z",
       "released": false
     },
     "2293440": {
@@ -402,7 +406,7 @@
       "released": true
     },
     "2320730": {
-      "last_fetched": "2026-06-01T07:46:33.772Z",
+      "last_fetched": "2026-07-01T07:30:37.023Z",
       "released": false
     },
     "2323370": {
@@ -430,15 +434,19 @@
       "released": true
     },
     "2446620": {
-      "last_fetched": "2026-06-01T07:46:33.703Z",
+      "last_fetched": "2026-07-01T07:30:36.934Z",
       "released": false
     },
     "2496440": {
       "last_fetched": "2026-02-18T19:53:45.373Z",
       "released": true
     },
+    "2498620": {
+      "last_fetched": "2026-07-01T07:30:31.851Z",
+      "released": true
+    },
     "2509280": {
-      "last_fetched": "2026-06-01T07:46:33.007Z",
+      "last_fetched": "2026-07-01T07:30:36.401Z",
       "released": false
     },
     "2513270": {
@@ -470,7 +478,7 @@
       "released": true
     },
     "2555300": {
-      "last_fetched": "2026-06-01T07:46:32.372Z",
+      "last_fetched": "2026-07-01T07:30:35.777Z",
       "released": false
     },
     "2577730": {
@@ -478,7 +486,7 @@
       "released": false
     },
     "2587380": {
-      "last_fetched": "2026-06-01T07:46:31.352Z",
+      "last_fetched": "2026-07-01T07:30:34.618Z",
       "released": false
     },
     "2654030": {
@@ -505,8 +513,12 @@
       "last_fetched": "2026-02-18T19:54:05.906Z",
       "released": true
     },
+    "2744340": {
+      "last_fetched": "2026-07-01T07:30:32.105Z",
+      "released": true
+    },
     "2744430": {
-      "last_fetched": "2026-06-01T07:46:32.445Z",
+      "last_fetched": "2026-07-01T07:30:35.861Z",
       "released": false
     },
     "2744730": {
@@ -514,7 +526,7 @@
       "released": true
     },
     "2750400": {
-      "last_fetched": "2026-06-01T07:46:31.280Z",
+      "last_fetched": "2026-07-01T07:30:34.522Z",
       "released": false
     },
     "2759760": {
@@ -526,7 +538,7 @@
       "released": true
     },
     "2771190": {
-      "last_fetched": "2026-06-01T07:46:32.917Z",
+      "last_fetched": "2026-07-01T07:30:36.305Z",
       "released": false
     },
     "2786550": {
@@ -538,7 +550,7 @@
       "released": false
     },
     "2843310": {
-      "last_fetched": "2026-06-01T07:46:32.568Z",
+      "last_fetched": "2026-07-01T07:30:35.946Z",
       "released": false
     },
     "2854710": {
@@ -554,7 +566,7 @@
       "released": false
     },
     "2923140": {
-      "last_fetched": "2026-06-01T07:46:30.881Z",
+      "last_fetched": "2026-07-01T07:30:34.171Z",
       "released": false
     },
     "2954780": {
@@ -574,7 +586,7 @@
       "released": true
     },
     "3034960": {
-      "last_fetched": "2026-06-01T07:46:32.849Z",
+      "last_fetched": "2026-07-01T07:30:36.213Z",
       "released": false
     },
     "3053130": {
@@ -582,7 +594,7 @@
       "released": true
     },
     "3070010": {
-      "last_fetched": "2026-06-01T07:46:32.181Z",
+      "last_fetched": "2026-07-01T07:30:35.605Z",
       "released": false
     },
     "3079160": {
@@ -594,11 +606,11 @@
       "released": true
     },
     "3109010": {
-      "last_fetched": "2026-06-01T07:46:32.784Z",
+      "last_fetched": "2026-07-01T07:30:36.127Z",
       "released": false
     },
     "3112340": {
-      "last_fetched": "2026-06-01T07:46:32.635Z",
+      "last_fetched": "2026-07-01T07:30:36.031Z",
       "released": false
     },
     "3118380": {
@@ -609,16 +621,20 @@
       "last_fetched": "2026-02-18T19:54:02.159Z",
       "released": true
     },
+    "3144030": {
+      "last_fetched": "2026-07-01T07:30:32.212Z",
+      "released": true
+    },
     "3144950": {
       "last_fetched": "2026-02-18T19:53:53.862Z",
       "released": true
     },
     "3157920": {
-      "last_fetched": "2026-06-01T07:46:32.111Z",
+      "last_fetched": "2026-07-01T07:30:35.514Z",
       "released": false
     },
     "3180280": {
-      "last_fetched": "2026-06-01T07:46:31.569Z",
+      "last_fetched": "2026-07-01T07:30:34.880Z",
       "released": false
     },
     "3184250": {
@@ -634,11 +650,11 @@
       "released": true
     },
     "3265190": {
-      "last_fetched": "2026-06-01T07:46:31.922Z",
+      "last_fetched": "2026-07-01T07:30:35.329Z",
       "released": false
     },
     "3278170": {
-      "last_fetched": "2026-06-01T07:46:32.300Z",
+      "last_fetched": "2026-07-01T07:30:35.695Z",
       "released": false
     },
     "3298910": {
@@ -650,7 +666,7 @@
       "released": true
     },
     "3333990": {
-      "last_fetched": "2026-06-01T07:46:32.038Z",
+      "last_fetched": "2026-07-01T07:30:35.422Z",
       "released": false
     },
     "3402390": {
@@ -661,12 +677,16 @@
       "last_fetched": "2026-02-18T19:53:56.285Z",
       "released": true
     },
+    "3460910": {
+      "last_fetched": "2026-07-01T07:30:31.965Z",
+      "released": true
+    },
     "3464670": {
       "last_fetched": "2026-05-01T06:55:54.926Z",
       "released": false
     },
     "3467750": {
-      "last_fetched": "2026-06-01T07:46:31.774Z",
+      "last_fetched": "2026-07-01T07:30:35.153Z",
       "released": false
     },
     "3476660": {
@@ -678,11 +698,11 @@
       "released": true
     },
     "3506750": {
-      "last_fetched": "2026-06-01T07:46:31.846Z",
+      "last_fetched": "2026-07-01T07:30:35.244Z",
       "released": false
     },
     "3516100": {
-      "last_fetched": "2026-06-01T07:46:30.694Z",
+      "last_fetched": "2026-07-01T07:30:33.968Z",
       "released": false
     },
     "3531690": {
@@ -690,7 +710,7 @@
       "released": true
     },
     "3539330": {
-      "last_fetched": "2026-06-01T07:46:31.704Z",
+      "last_fetched": "2026-07-01T07:30:35.060Z",
       "released": false
     },
     "3541940": {
@@ -706,7 +726,7 @@
       "released": true
     },
     "3579340": {
-      "last_fetched": "2026-06-01T07:46:31.635Z",
+      "last_fetched": "2026-07-01T07:30:34.966Z",
       "released": false
     },
     "3581050": {
@@ -734,7 +754,7 @@
       "released": true
     },
     "3653660": {
-      "last_fetched": "2026-06-01T07:46:30.486Z",
+      "last_fetched": "2026-07-01T07:30:33.688Z",
       "released": false
     },
     "3667720": {
@@ -745,8 +765,12 @@
       "last_fetched": "2026-02-18T19:53:51.491Z",
       "released": true
     },
+    "3682910": {
+      "last_fetched": "2026-07-01T07:30:32.406Z",
+      "released": true
+    },
     "3713290": {
-      "last_fetched": "2026-06-01T07:46:31.492Z",
+      "last_fetched": "2026-07-01T07:30:34.791Z",
       "released": false
     },
     "3716590": {
@@ -758,7 +782,7 @@
       "released": false
     },
     "3771680": {
-      "last_fetched": "2026-06-01T07:46:31.424Z",
+      "last_fetched": "2026-07-01T07:30:34.704Z",
       "released": false
     },
     "3794300": {
@@ -766,7 +790,7 @@
       "released": true
     },
     "3840300": {
-      "last_fetched": "2026-06-01T07:46:29.589Z",
+      "last_fetched": "2026-07-01T07:30:32.931Z",
       "released": false
     },
     "3846450": {
@@ -774,7 +798,7 @@
       "released": true
     },
     "3849930": {
-      "last_fetched": "2026-06-01T07:46:31.190Z",
+      "last_fetched": "2026-07-01T07:30:34.437Z",
       "released": false
     },
     "3902490": {
@@ -794,7 +818,7 @@
       "released": false
     },
     "3986630": {
-      "last_fetched": "2026-06-01T07:46:31.115Z",
+      "last_fetched": "2026-07-01T07:30:34.351Z",
       "released": false
     },
     "4047130": {
@@ -806,7 +830,7 @@
       "released": false
     },
     "4086630": {
-      "last_fetched": "2026-06-01T07:46:31.039Z",
+      "last_fetched": "2026-07-01T07:30:34.265Z",
       "released": false
     },
     "4112440": {
@@ -814,11 +838,15 @@
       "released": false
     },
     "4117250": {
-      "last_fetched": "2026-06-01T07:46:30.624Z",
+      "last_fetched": "2026-07-01T07:30:33.871Z",
+      "released": false
+    },
+    "4121450": {
+      "last_fetched": "2026-07-01T07:30:31.720Z",
       "released": false
     },
     "4163030": {
-      "last_fetched": "2026-06-01T07:46:30.759Z",
+      "last_fetched": "2026-07-01T07:30:34.072Z",
       "released": false
     },
     "4164840": {
@@ -834,11 +862,11 @@
       "released": false
     },
     "4214100": {
-      "last_fetched": "2026-06-01T07:46:30.203Z",
+      "last_fetched": "2026-07-01T07:30:33.395Z",
       "released": false
     },
     "4232180": {
-      "last_fetched": "2026-06-01T07:46:30.555Z",
+      "last_fetched": "2026-07-01T07:30:33.782Z",
       "released": false
     },
     "4255650": {
@@ -857,20 +885,44 @@
       "last_fetched": "2026-05-18T19:47:41.802Z",
       "released": false
     },
+    "4299460": {
+      "last_fetched": "2026-07-01T07:30:31.601Z",
+      "released": false
+    },
     "4304930": {
       "last_fetched": "2026-05-01T06:55:51.968Z",
       "released": false
     },
+    "4305480": {
+      "last_fetched": "2026-07-01T07:30:31.512Z",
+      "released": true
+    },
+    "4355260": {
+      "last_fetched": "2026-07-01T07:30:32.817Z",
+      "released": false
+    },
     "4373500": {
-      "last_fetched": "2026-06-01T07:46:30.412Z",
+      "last_fetched": "2026-07-01T07:30:33.582Z",
       "released": false
     },
     "4421870": {
-      "last_fetched": "2026-06-01T07:46:29.877Z",
+      "last_fetched": "2026-07-01T07:30:33.027Z",
+      "released": false
+    },
+    "4436580": {
+      "last_fetched": "2026-07-01T07:30:31.381Z",
+      "released": false
+    },
+    "4457980": {
+      "last_fetched": "2026-07-01T07:30:32.615Z",
       "released": false
     },
     "4525440": {
-      "last_fetched": "2026-06-01T07:46:30.120Z",
+      "last_fetched": "2026-07-01T07:30:33.304Z",
+      "released": false
+    },
+    "4533250": {
+      "last_fetched": "2026-07-01T07:30:32.726Z",
       "released": false
     },
     "4544200": {
@@ -878,7 +930,7 @@
       "released": false
     },
     "4556050": {
-      "last_fetched": "2026-06-01T07:46:30.049Z",
+      "last_fetched": "2026-07-01T07:30:33.215Z",
       "released": false
     },
     "4608930": {
@@ -886,11 +938,19 @@
       "released": false
     },
     "4620420": {
-      "last_fetched": "2026-06-01T07:46:29.949Z",
+      "last_fetched": "2026-07-01T07:30:33.120Z",
+      "released": false
+    },
+    "4706130": {
+      "last_fetched": "2026-07-01T07:30:31.245Z",
       "released": false
     },
     "4730280": {
       "last_fetched": "2026-05-18T19:47:40.567Z",
+      "released": false
+    },
+    "4735720": {
+      "last_fetched": "2026-07-01T07:30:32.510Z",
       "released": false
     }
   }

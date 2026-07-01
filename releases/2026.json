@@ -78,6 +78,11 @@
       "SteamID": 2654030,
       "name": "Kamilia",
       "release_date": "Jun 10, 2026"
+    },
+    {
+      "SteamID": 4305480,
+      "name": "IncreKnight",
+      "release_date": "Jun 3, 2026"
     }
   ],
   "7": [
@@ -85,9 +90,30 @@
       "SteamID": 4078110,
       "name": "Suncraft",
       "release_date": "July 2026"
+    },
+    {
+      "SteamID": 4163030,
+      "name": "Cat Chess",
+      "release_date": "Jul 14, 2026"
     }
   ],
-  "8": [],
+  "8": [
+    {
+      "SteamID": 3467750,
+      "name": "Fairysite",
+      "release_date": "Aug 20, 2026"
+    },
+    {
+      "SteamID": 4299460,
+      "name": "Sweepcremental",
+      "release_date": "Aug 14, 2026"
+    },
+    {
+      "SteamID": 4436580,
+      "name": "All You Can FISH!",
+      "release_date": "August 2026"
+    }
+  ],
   "9": [],
   "10": [],
   "11": [],

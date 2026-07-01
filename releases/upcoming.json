@@ -40,11 +40,6 @@
     "release_date": "To be announced"
   },
   {
-    "SteamID": 4163030,
-    "name": "Cat Chess",
-    "release_date": "Coming soon"
-  },
-  {
     "SteamID": 4525440,
     "name": "Cheese Pull",
     "release_date": "To be announced"
@@ -115,11 +110,6 @@
     "release_date": "To be announced"
   },
   {
-    "SteamID": 3467750,
-    "name": "Fairysite",
-    "release_date": "To be announced"
-  },
-  {
     "SteamID": 3986630,
     "name": "Fur and Fury: Bunny Seeks Revenge",
     "release_date": "To be announced"
@@ -127,6 +117,11 @@
   {
     "SteamID": 3840300,
     "name": "Gamblers Arena",
+    "release_date": "Coming soon"
+  },
+  {
+    "SteamID": 4533250,
+    "name": "GrassChopper",
     "release_date": "Coming soon"
   },
   {
@@ -152,7 +147,7 @@
   {
     "SteamID": 4117250,
     "name": "Killing Momentum: Umbral Moon",
-    "release_date": "Coming soon"
+    "release_date": "To be announced"
   },
   {
     "SteamID": 2843310,
@@ -210,6 +205,11 @@
     "release_date": "Coming soon"
   },
   {
+    "SteamID": 4735720,
+    "name": "Pegs & Sorcery",
+    "release_date": "Coming soon"
+  },
+  {
     "SteamID": 1483000,
     "name": "Phantom Beasts - Redemption",
     "release_date": "To be announced"
@@ -233,6 +233,11 @@
     "SteamID": 2750400,
     "name": "Spearhead 2",
     "release_date": "Coming soon"
+  },
+  {
+    "SteamID": 4457980,
+    "name": "Spurfall",
+    "release_date": "To be announced"
   },
   {
     "SteamID": 4373500,
@@ -271,7 +276,12 @@
   },
   {
     "SteamID": 4086630,
-    "name": "TingBase",
+    "name": "Tingbase",
+    "release_date": "Coming soon"
+  },
+  {
+    "SteamID": 4706130,
+    "name": "Typing In Love",
     "release_date": "Coming soon"
   },
   {
@@ -287,6 +297,11 @@
   {
     "SteamID": 4620420,
     "name": "Void Commander: Armada",
+    "release_date": "To be announced"
+  },
+  {
+    "SteamID": 4121450,
+    "name": "Wyrmfall",
     "release_date": "To be announced"
   },
   {
