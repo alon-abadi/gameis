@@ -1,5 +1,5 @@
 {
-  "last_sync": "2026-07-01T07:30:38.313Z",
+  "last_sync": "2026-08-01T06:50:20.133Z",
   "games": {
     "331210": {
       "last_fetched": "2026-02-18T19:54:37.279Z",
@@ -50,7 +50,7 @@
       "released": true
     },
     "726250": {
-      "last_fetched": "2026-05-01T06:56:01.556Z",
+      "last_fetched": "2026-08-01T06:50:19.578Z",
       "released": false
     },
     "778650": {
@@ -58,7 +58,7 @@
       "released": true
     },
     "808800": {
-      "last_fetched": "2026-05-01T06:56:00.156Z",
+      "last_fetched": "2026-08-01T06:50:18.308Z",
       "released": false
     },
     "810660": {
@@ -78,7 +78,7 @@
       "released": true
     },
     "908710": {
-      "last_fetched": "2026-05-01T06:56:00.280Z",
+      "last_fetched": "2026-08-01T06:50:18.426Z",
       "released": false
     },
     "909190": {
@@ -86,7 +86,7 @@
       "released": true
     },
     "923100": {
-      "last_fetched": "2026-05-01T06:56:02.086Z",
+      "last_fetched": "2026-08-01T06:50:20.132Z",
       "released": false
     },
     "986070": {
@@ -94,7 +94,7 @@
       "released": true
     },
     "1010910": {
-      "last_fetched": "2026-07-01T07:30:38.048Z",
+      "last_fetched": "2026-08-01T06:50:19.465Z",
       "released": false
     },
     "1029650": {
@@ -114,7 +114,7 @@
       "released": true
     },
     "1108170": {
-      "last_fetched": "2026-05-01T06:56:01.765Z",
+      "last_fetched": "2026-08-01T06:50:19.819Z",
       "released": false
     },
     "1119980": {
@@ -130,7 +130,7 @@
       "released": true
     },
     "1158190": {
-      "last_fetched": "2026-07-01T07:30:37.948Z",
+      "last_fetched": "2026-08-01T06:50:19.360Z",
       "released": false
     },
     "1161200": {
@@ -142,11 +142,11 @@
       "released": true
     },
     "1182410": {
-      "last_fetched": "2026-07-01T07:30:36.673Z",
+      "last_fetched": "2026-08-01T06:50:17.281Z",
       "released": false
     },
     "1186300": {
-      "last_fetched": "2026-07-01T07:30:38.137Z",
+      "last_fetched": "2026-08-01T06:50:19.687Z",
       "released": false
     },
     "1193780": {
@@ -158,7 +158,7 @@
       "released": true
     },
     "1211220": {
-      "last_fetched": "2026-07-01T07:30:37.209Z",
+      "last_fetched": "2026-08-01T06:50:17.999Z",
       "released": false
     },
     "1248670": {
@@ -170,7 +170,11 @@
       "released": true
     },
     "1268790": {
-      "last_fetched": "2026-07-01T07:30:37.590Z",
+      "last_fetched": "2026-08-01T06:50:18.727Z",
+      "released": false
+    },
+    "1270570": {
+      "last_fetched": "2026-08-01T06:50:10.343Z",
       "released": false
     },
     "1275670": {
@@ -186,7 +190,7 @@
       "released": true
     },
     "1292310": {
-      "last_fetched": "2026-07-01T07:30:38.226Z",
+      "last_fetched": "2026-08-01T06:50:19.916Z",
       "released": false
     },
     "1292410": {
@@ -214,11 +218,11 @@
       "released": true
     },
     "1355900": {
-      "last_fetched": "2026-05-01T06:55:51.509Z",
+      "last_fetched": "2026-08-01T06:50:12.598Z",
       "released": false
     },
     "1367050": {
-      "last_fetched": "2026-07-01T07:30:37.681Z",
+      "last_fetched": "2026-08-01T06:50:18.822Z",
       "released": false
     },
     "1446540": {
@@ -226,11 +230,11 @@
       "released": true
     },
     "1464220": {
-      "last_fetched": "2026-05-01T06:56:00.405Z",
+      "last_fetched": "2026-08-01T06:50:18.534Z",
       "released": false
     },
     "1483000": {
-      "last_fetched": "2026-07-01T07:30:38.313Z",
+      "last_fetched": "2026-08-01T06:50:20.014Z",
       "released": false
     },
     "1533050": {
@@ -250,15 +254,15 @@
       "released": true
     },
     "1678940": {
-      "last_fetched": "2026-07-01T07:30:37.392Z",
+      "last_fetched": "2026-08-01T06:50:18.194Z",
       "released": false
     },
     "1687020": {
-      "last_fetched": "2026-05-01T06:56:01.172Z",
+      "last_fetched": "2026-08-01T06:50:19.248Z",
       "released": false
     },
     "1700300": {
-      "last_fetched": "2026-05-01T06:56:01.054Z",
+      "last_fetched": "2026-08-01T06:50:19.128Z",
       "released": false
     },
     "1729120": {
@@ -278,7 +282,7 @@
       "released": true
     },
     "1780000": {
-      "last_fetched": "2026-07-01T07:30:36.763Z",
+      "last_fetched": "2026-08-01T06:50:17.515Z",
       "released": false
     },
     "1790990": {
@@ -286,7 +290,7 @@
       "released": true
     },
     "1804380": {
-      "last_fetched": "2026-07-01T07:30:37.768Z",
+      "last_fetched": "2026-08-01T06:50:18.916Z",
       "released": false
     },
     "1818610": {
@@ -298,7 +302,7 @@
       "released": true
     },
     "1903430": {
-      "last_fetched": "2026-07-01T07:30:37.499Z",
+      "last_fetched": "2026-08-01T06:50:18.632Z",
       "released": false
     },
     "1904820": {
@@ -314,7 +318,7 @@
       "released": true
     },
     "1926070": {
-      "last_fetched": "2026-07-01T07:30:37.859Z",
+      "last_fetched": "2026-08-01T06:50:19.011Z",
       "released": false
     },
     "1947160": {
@@ -326,7 +330,7 @@
       "released": true
     },
     "2016560": {
-      "last_fetched": "2026-07-01T07:30:36.579Z",
+      "last_fetched": "2026-08-01T06:50:17.191Z",
       "released": false
     },
     "2065840": {
@@ -342,7 +346,7 @@
       "released": true
     },
     "2084210": {
-      "last_fetched": "2026-07-01T07:30:36.493Z",
+      "last_fetched": "2026-08-01T06:50:17.102Z",
       "released": false
     },
     "2090040": {
@@ -358,7 +362,7 @@
       "released": true
     },
     "2151850": {
-      "last_fetched": "2026-07-01T07:30:37.298Z",
+      "last_fetched": "2026-08-01T06:50:18.099Z",
       "released": false
     },
     "2160230": {
@@ -366,11 +370,11 @@
       "released": true
     },
     "2210060": {
-      "last_fetched": "2026-07-01T07:30:37.118Z",
+      "last_fetched": "2026-08-01T06:50:17.897Z",
       "released": false
     },
     "2218940": {
-      "last_fetched": "2026-07-01T07:30:33.485Z",
+      "last_fetched": "2026-08-01T06:50:12.099Z",
       "released": false
     },
     "2236300": {
@@ -390,11 +394,11 @@
       "released": true
     },
     "2276770": {
-      "last_fetched": "2026-05-01T06:55:53.814Z",
+      "last_fetched": "2026-08-01T06:50:14.067Z",
       "released": false
     },
     "2284160": {
-      "last_fetched": "2026-07-01T07:30:36.851Z",
+      "last_fetched": "2026-08-01T06:50:17.613Z",
       "released": false
     },
     "2293440": {
@@ -406,7 +410,7 @@
       "released": true
     },
     "2320730": {
-      "last_fetched": "2026-07-01T07:30:37.023Z",
+      "last_fetched": "2026-08-01T06:50:17.801Z",
       "released": false
     },
     "2323370": {
@@ -434,7 +438,7 @@
       "released": true
     },
     "2446620": {
-      "last_fetched": "2026-07-01T07:30:36.934Z",
+      "last_fetched": "2026-08-01T06:50:17.708Z",
       "released": false
     },
     "2496440": {
@@ -446,7 +450,7 @@
       "released": true
     },
     "2509280": {
-      "last_fetched": "2026-07-01T07:30:36.401Z",
+      "last_fetched": "2026-08-01T06:50:17.012Z",
       "released": false
     },
     "2513270": {
@@ -462,7 +466,7 @@
       "released": true
     },
     "2529960": {
-      "last_fetched": "2026-05-01T06:55:53.689Z",
+      "last_fetched": "2026-08-01T06:50:13.950Z",
       "released": false
     },
     "2532110": {
@@ -478,15 +482,15 @@
       "released": true
     },
     "2555300": {
-      "last_fetched": "2026-07-01T07:30:35.777Z",
+      "last_fetched": "2026-08-01T06:50:16.270Z",
       "released": false
     },
     "2577730": {
-      "last_fetched": "2026-05-01T06:55:50.731Z",
+      "last_fetched": "2026-08-01T06:50:12.202Z",
       "released": false
     },
     "2587380": {
-      "last_fetched": "2026-07-01T07:30:34.618Z",
+      "last_fetched": "2026-08-01T06:50:14.654Z",
       "released": false
     },
     "2654030": {
@@ -494,7 +498,7 @@
       "released": false
     },
     "2669540": {
-      "last_fetched": "2026-05-01T06:55:55.788Z",
+      "last_fetched": "2026-08-01T06:50:15.233Z",
       "released": false
     },
     "2680810": {
@@ -518,7 +522,7 @@
       "released": true
     },
     "2744430": {
-      "last_fetched": "2026-07-01T07:30:35.861Z",
+      "last_fetched": "2026-08-01T06:50:16.363Z",
       "released": false
     },
     "2744730": {
@@ -526,7 +530,7 @@
       "released": true
     },
     "2750400": {
-      "last_fetched": "2026-07-01T07:30:34.522Z",
+      "last_fetched": "2026-08-01T06:50:14.551Z",
       "released": false
     },
     "2759760": {
@@ -538,19 +542,19 @@
       "released": true
     },
     "2771190": {
-      "last_fetched": "2026-07-01T07:30:36.305Z",
+      "last_fetched": "2026-08-01T06:50:16.916Z",
       "released": false
     },
     "2786550": {
-      "last_fetched": "2026-05-01T06:55:52.946Z",
+      "last_fetched": "2026-08-01T06:50:13.553Z",
       "released": false
     },
     "2800450": {
-      "last_fetched": "2026-05-01T06:55:55.559Z",
+      "last_fetched": "2026-08-01T06:50:15.139Z",
       "released": false
     },
     "2843310": {
-      "last_fetched": "2026-07-01T07:30:35.946Z",
+      "last_fetched": "2026-08-01T06:50:16.458Z",
       "released": false
     },
     "2854710": {
@@ -562,11 +566,11 @@
       "released": true
     },
     "2875810": {
-      "last_fetched": "2026-05-01T06:55:59.044Z",
+      "last_fetched": "2026-08-01T06:50:17.409Z",
       "released": false
     },
     "2923140": {
-      "last_fetched": "2026-07-01T07:30:34.171Z",
+      "last_fetched": "2026-08-01T06:50:13.475Z",
       "released": false
     },
     "2954780": {
@@ -586,7 +590,7 @@
       "released": true
     },
     "3034960": {
-      "last_fetched": "2026-07-01T07:30:36.213Z",
+      "last_fetched": "2026-08-01T06:50:16.794Z",
       "released": false
     },
     "3053130": {
@@ -594,7 +598,7 @@
       "released": true
     },
     "3070010": {
-      "last_fetched": "2026-07-01T07:30:35.605Z",
+      "last_fetched": "2026-08-01T06:50:16.082Z",
       "released": false
     },
     "3079160": {
@@ -606,11 +610,11 @@
       "released": true
     },
     "3109010": {
-      "last_fetched": "2026-07-01T07:30:36.127Z",
+      "last_fetched": "2026-08-01T06:50:16.703Z",
       "released": false
     },
     "3112340": {
-      "last_fetched": "2026-07-01T07:30:36.031Z",
+      "last_fetched": "2026-08-01T06:50:16.601Z",
       "released": false
     },
     "3118380": {
@@ -630,11 +634,11 @@
       "released": true
     },
     "3157920": {
-      "last_fetched": "2026-07-01T07:30:35.514Z",
+      "last_fetched": "2026-08-01T06:50:15.983Z",
       "released": false
     },
     "3180280": {
-      "last_fetched": "2026-07-01T07:30:34.880Z",
+      "last_fetched": "2026-08-01T06:50:15.328Z",
       "released": false
     },
     "3184250": {
@@ -650,23 +654,23 @@
       "released": true
     },
     "3265190": {
-      "last_fetched": "2026-07-01T07:30:35.329Z",
+      "last_fetched": "2026-08-01T06:50:15.811Z",
       "released": false
     },
     "3278170": {
-      "last_fetched": "2026-07-01T07:30:35.695Z",
+      "last_fetched": "2026-08-01T06:50:16.177Z",
       "released": false
     },
     "3298910": {
-      "last_fetched": "2026-05-01T06:55:56.509Z",
-      "released": false
+      "last_fetched": "2026-08-01T06:50:15.625Z",
+      "released": true
     },
     "3305530": {
       "last_fetched": "2026-02-18T19:53:50.238Z",
       "released": true
     },
     "3333990": {
-      "last_fetched": "2026-07-01T07:30:35.422Z",
+      "last_fetched": "2026-08-01T06:50:15.909Z",
       "released": false
     },
     "3402390": {
@@ -682,7 +686,7 @@
       "released": true
     },
     "3464670": {
-      "last_fetched": "2026-05-01T06:55:54.926Z",
+      "last_fetched": "2026-08-01T06:50:14.768Z",
       "released": false
     },
     "3467750": {
@@ -698,11 +702,11 @@
       "released": true
     },
     "3506750": {
-      "last_fetched": "2026-07-01T07:30:35.244Z",
+      "last_fetched": "2026-08-01T06:50:15.716Z",
       "released": false
     },
     "3516100": {
-      "last_fetched": "2026-07-01T07:30:33.968Z",
+      "last_fetched": "2026-08-01T06:50:13.363Z",
       "released": false
     },
     "3531690": {
@@ -710,11 +714,11 @@
       "released": true
     },
     "3539330": {
-      "last_fetched": "2026-07-01T07:30:35.060Z",
+      "last_fetched": "2026-08-01T06:50:15.525Z",
       "released": false
     },
     "3541940": {
-      "last_fetched": "2026-05-01T06:55:55.267Z",
+      "last_fetched": "2026-08-01T06:50:14.966Z",
       "released": false
     },
     "3566940": {
@@ -726,7 +730,7 @@
       "released": true
     },
     "3579340": {
-      "last_fetched": "2026-07-01T07:30:34.966Z",
+      "last_fetched": "2026-08-01T06:50:15.429Z",
       "released": false
     },
     "3581050": {
@@ -746,7 +750,7 @@
       "released": true
     },
     "3613050": {
-      "last_fetched": "2026-05-01T06:55:54.218Z",
+      "last_fetched": "2026-08-01T06:50:14.251Z",
       "released": false
     },
     "3621050": {
@@ -754,7 +758,7 @@
       "released": true
     },
     "3653660": {
-      "last_fetched": "2026-07-01T07:30:33.688Z",
+      "last_fetched": "2026-08-01T06:50:12.692Z",
       "released": false
     },
     "3667720": {
@@ -770,7 +774,7 @@
       "released": true
     },
     "3713290": {
-      "last_fetched": "2026-07-01T07:30:34.791Z",
+      "last_fetched": "2026-08-01T06:50:15.064Z",
       "released": false
     },
     "3716590": {
@@ -778,11 +782,11 @@
       "released": true
     },
     "3734940": {
-      "last_fetched": "2026-05-01T06:55:53.529Z",
+      "last_fetched": "2026-08-01T06:50:13.849Z",
       "released": false
     },
     "3771680": {
-      "last_fetched": "2026-07-01T07:30:34.704Z",
+      "last_fetched": "2026-08-01T06:50:14.865Z",
       "released": false
     },
     "3794300": {
@@ -790,7 +794,7 @@
       "released": true
     },
     "3840300": {
-      "last_fetched": "2026-07-01T07:30:32.931Z",
+      "last_fetched": "2026-08-01T06:50:10.959Z",
       "released": false
     },
     "3846450": {
@@ -798,7 +802,7 @@
       "released": true
     },
     "3849930": {
-      "last_fetched": "2026-07-01T07:30:34.437Z",
+      "last_fetched": "2026-08-01T06:50:14.451Z",
       "released": false
     },
     "3902490": {
@@ -806,7 +810,7 @@
       "released": true
     },
     "3921340": {
-      "last_fetched": "2026-05-01T06:55:51.160Z",
+      "last_fetched": "2026-08-01T06:50:12.399Z",
       "released": false
     },
     "3924170": {
@@ -814,35 +818,39 @@
       "released": true
     },
     "3936940": {
-      "last_fetched": "2026-05-01T06:55:54.359Z",
+      "last_fetched": "2026-08-01T06:50:14.351Z",
       "released": false
     },
     "3986630": {
-      "last_fetched": "2026-07-01T07:30:34.351Z",
+      "last_fetched": "2026-08-01T06:50:14.157Z",
       "released": false
     },
     "4047130": {
       "last_fetched": "2026-05-01T06:55:53.203Z",
       "released": true
     },
-    "4078110": {
-      "last_fetched": "2026-05-01T06:55:49.401Z",
+    "4077330": {
+      "last_fetched": "2026-08-01T06:50:09.943Z",
       "released": false
     },
+    "4078110": {
+      "last_fetched": "2026-08-01T06:50:11.382Z",
+      "released": true
+    },
     "4086630": {
-      "last_fetched": "2026-07-01T07:30:34.265Z",
+      "last_fetched": "2026-08-01T06:50:13.701Z",
       "released": false
     },
     "4112440": {
-      "last_fetched": "2026-05-01T06:55:52.156Z",
+      "last_fetched": "2026-08-01T06:50:12.955Z",
       "released": false
     },
     "4117250": {
-      "last_fetched": "2026-07-01T07:30:33.871Z",
+      "last_fetched": "2026-08-01T06:50:13.266Z",
       "released": false
     },
     "4121450": {
-      "last_fetched": "2026-07-01T07:30:31.720Z",
+      "last_fetched": "2026-08-01T06:50:10.528Z",
       "released": false
     },
     "4163030": {
@@ -862,11 +870,11 @@
       "released": false
     },
     "4214100": {
-      "last_fetched": "2026-07-01T07:30:33.395Z",
+      "last_fetched": "2026-08-01T06:50:12.002Z",
       "released": false
     },
     "4232180": {
-      "last_fetched": "2026-07-01T07:30:33.782Z",
+      "last_fetched": "2026-08-01T06:50:12.770Z",
       "released": false
     },
     "4255650": {
@@ -874,24 +882,24 @@
       "released": true
     },
     "4274830": {
-      "last_fetched": "2026-05-01T06:55:51.336Z",
+      "last_fetched": "2026-08-01T06:50:12.497Z",
       "released": false
     },
     "4282680": {
-      "last_fetched": "2026-05-01T06:55:52.408Z",
+      "last_fetched": "2026-08-01T06:50:13.170Z",
       "released": false
     },
     "4292150": {
-      "last_fetched": "2026-05-18T19:47:41.802Z",
-      "released": false
+      "last_fetched": "2026-08-01T06:50:13.073Z",
+      "released": true
     },
     "4299460": {
       "last_fetched": "2026-07-01T07:30:31.601Z",
       "released": false
     },
     "4304930": {
-      "last_fetched": "2026-05-01T06:55:51.968Z",
-      "released": false
+      "last_fetched": "2026-08-01T06:50:12.848Z",
+      "released": true
     },
     "4305480": {
       "last_fetched": "2026-07-01T07:30:31.512Z",
@@ -902,11 +910,11 @@
       "released": false
     },
     "4373500": {
-      "last_fetched": "2026-07-01T07:30:33.582Z",
+      "last_fetched": "2026-08-01T06:50:12.295Z",
       "released": false
     },
     "4421870": {
-      "last_fetched": "2026-07-01T07:30:33.027Z",
+      "last_fetched": "2026-08-01T06:50:11.274Z",
       "released": false
     },
     "4436580": {
@@ -914,43 +922,59 @@
       "released": false
     },
     "4457980": {
-      "last_fetched": "2026-07-01T07:30:32.615Z",
+      "last_fetched": "2026-08-01T06:50:10.740Z",
       "released": false
     },
     "4525440": {
-      "last_fetched": "2026-07-01T07:30:33.304Z",
+      "last_fetched": "2026-08-01T06:50:11.727Z",
       "released": false
     },
     "4533250": {
-      "last_fetched": "2026-07-01T07:30:32.726Z",
+      "last_fetched": "2026-08-01T06:50:10.839Z",
       "released": false
     },
     "4544200": {
-      "last_fetched": "2026-05-01T06:55:49.881Z",
+      "last_fetched": "2026-08-01T06:50:11.863Z",
       "released": false
     },
     "4556050": {
-      "last_fetched": "2026-07-01T07:30:33.215Z",
+      "last_fetched": "2026-08-01T06:50:11.634Z",
       "released": false
     },
     "4608930": {
-      "last_fetched": "2026-05-18T19:47:40.670Z",
+      "last_fetched": "2026-08-01T06:50:11.174Z",
       "released": false
     },
     "4620420": {
-      "last_fetched": "2026-07-01T07:30:33.120Z",
+      "last_fetched": "2026-08-01T06:50:11.537Z",
       "released": false
     },
     "4706130": {
-      "last_fetched": "2026-07-01T07:30:31.245Z",
+      "last_fetched": "2026-08-01T06:50:10.438Z",
       "released": false
     },
     "4730280": {
-      "last_fetched": "2026-05-18T19:47:40.567Z",
+      "last_fetched": "2026-08-01T06:50:11.073Z",
       "released": false
     },
     "4735720": {
-      "last_fetched": "2026-07-01T07:30:32.510Z",
+      "last_fetched": "2026-08-01T06:50:10.645Z",
+      "released": false
+    },
+    "4805120": {
+      "last_fetched": "2026-08-01T06:50:10.231Z",
+      "released": true
+    },
+    "4816900": {
+      "last_fetched": "2026-08-01T06:50:10.056Z",
+      "released": true
+    },
+    "4838810": {
+      "last_fetched": "2026-08-01T06:50:09.817Z",
+      "released": false
+    },
+    "4931110": {
+      "last_fetched": "2026-08-01T06:50:09.721Z",
       "released": false
     }
   }

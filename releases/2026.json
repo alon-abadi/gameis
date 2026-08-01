@@ -83,6 +83,16 @@
       "SteamID": 4305480,
       "name": "IncreKnight",
       "release_date": "Jun 3, 2026"
+    },
+    {
+      "SteamID": 3298910,
+      "name": "Once a Pawn a King",
+      "release_date": "Jun 25, 2026"
+    },
+    {
+      "SteamID": 4805120,
+      "name": "The Disappearing Municipality Worker",
+      "release_date": "Jun 30, 2026"
     }
   ],
   "7": [
@@ -95,6 +105,11 @@
       "SteamID": 4163030,
       "name": "Cat Chess",
       "release_date": "Jul 14, 2026"
+    },
+    {
+      "SteamID": 4816900,
+      "name": "Keypress Express",
+      "release_date": "Jul 17, 2026"
     }
   ],
   "8": [
@@ -117,7 +132,13 @@
   "9": [],
   "10": [],
   "11": [],
-  "12": [],
+  "12": [
+    {
+      "SteamID": 4735720,
+      "name": "Pegs & Sorcery",
+      "release_date": "December 2026"
+    }
+  ],
   "unknown": [
     {
       "SteamID": 1355900,
