@@ -1,5 +1,10 @@
 [
   {
+    "SteamID": 4894570,
+    "name": "[ABERRATION] Yes,Jerry!",
+    "release_date": "Coming soon"
+  },
+  {
     "SteamID": 1780000,
     "name": "A Gift of War",
     "release_date": "To be announced"
@@ -135,6 +140,11 @@
     "release_date": "Coming soon"
   },
   {
+    "SteamID": 4696050,
+    "name": "HoverShot",
+    "release_date": "Coming soon"
+  },
+  {
     "SteamID": 3539330,
     "name": "Human Heritage",
     "release_date": "Coming soon"
@@ -200,6 +210,11 @@
     "release_date": "Coming soon"
   },
   {
+    "SteamID": 5068970,
+    "name": "NEXT OBJECTIVE",
+    "release_date": "To be announced"
+  },
+  {
     "SteamID": 2744430,
     "name": "Nightmare House",
     "release_date": "Coming soon"
@@ -215,19 +230,14 @@
     "release_date": "To be announced"
   },
   {
-    "SteamID": 3849930,
-    "name": "Once Before Us",
-    "release_date": "Coming soon"
-  },
-  {
-    "SteamID": 1483000,
-    "name": "Phantom Beasts - Redemption",
-    "release_date": "To be announced"
-  },
-  {
     "SteamID": 3278170,
     "name": "Pirate Survivors",
     "release_date": "To be announced"
+  },
+  {
+    "SteamID": 5001590,
+    "name": "Production Zero",
+    "release_date": "Coming soon"
   },
   {
     "SteamID": 1182410,
@@ -252,7 +262,7 @@
   {
     "SteamID": 4457980,
     "name": "Spurfall",
-    "release_date": "To be announced"
+    "release_date": "Coming soon"
   },
   {
     "SteamID": 4373500,
@@ -305,9 +315,9 @@
     "release_date": "To be announced"
   },
   {
-    "SteamID": 4556050,
-    "name": "Tzelem",
-    "release_date": "To be announced"
+    "SteamID": 3404400,
+    "name": "UNDERNEATH",
+    "release_date": "Coming soon"
   },
   {
     "SteamID": 4620420,
