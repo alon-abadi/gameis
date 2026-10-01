@@ -1,6 +1,12 @@
 {
   "1": [],
-  "2": [],
+  "2": [
+    {
+      "SteamID": 4457980,
+      "name": "Spurfall",
+      "release_date": "Feb 2, 2027"
+    }
+  ],
   "3": [],
   "4": [],
   "5": [],
@@ -46,6 +52,26 @@
       "SteamID": 4489940,
       "name": "[ABERRATION] THE ANALYST",
       "release_date": "Q2 2027"
+    },
+    {
+      "SteamID": 4810350,
+      "name": "Medusa's Gaze",
+      "release_date": "Q1 2027"
+    },
+    {
+      "SteamID": 4894570,
+      "name": "[ABERRATION] Yes, Jerry!",
+      "release_date": "Q1 2027"
+    },
+    {
+      "SteamID": 4978960,
+      "name": "MixUp!",
+      "release_date": "Q1 2027"
+    },
+    {
+      "SteamID": 5090530,
+      "name": "War Mart",
+      "release_date": "2027"
     }
   ]
 }

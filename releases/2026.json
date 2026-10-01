@@ -139,13 +139,24 @@
       "release_date": "August 2026"
     }
   ],
-  "9": [],
+  "9": [
+    {
+      "SteamID": 3936270,
+      "name": "It's Fine",
+      "release_date": "Sep 23, 2026"
+    }
+  ],
   "10": [],
   "11": [
     {
       "SteamID": 4556050,
       "name": "Tzelem",
       "release_date": "November 2026"
+    },
+    {
+      "SteamID": 5020270,
+      "name": "Digital Hunger",
+      "release_date": "Nov 10, 2026"
     }
   ],
   "12": [
@@ -153,6 +164,11 @@
       "SteamID": 4735720,
       "name": "Pegs & Sorcery",
       "release_date": "December 2026"
+    },
+    {
+      "SteamID": 5133580,
+      "name": "ZOMBILLIONAIRE",
+      "release_date": "Dec 30, 2026"
     }
   ],
   "unknown": [

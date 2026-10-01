@@ -1,10 +1,5 @@
 [
   {
-    "SteamID": 4894570,
-    "name": "[ABERRATION] Yes,Jerry!",
-    "release_date": "Coming soon"
-  },
-  {
     "SteamID": 1780000,
     "name": "A Gift of War",
     "release_date": "To be announced"
@@ -190,6 +185,11 @@
     "release_date": "Coming soon"
   },
   {
+    "SteamID": 4623590,
+    "name": "Mostly Cat",
+    "release_date": "To be announced"
+  },
+  {
     "SteamID": 2218940,
     "name": "Mouseburg: Pursuit of Power",
     "release_date": "To be announced"
@@ -230,8 +230,18 @@
     "release_date": "To be announced"
   },
   {
+    "SteamID": 3343820,
+    "name": "Oddballs",
+    "release_date": "To be announced"
+  },
+  {
     "SteamID": 3278170,
     "name": "Pirate Survivors",
+    "release_date": "To be announced"
+  },
+  {
+    "SteamID": 4568790,
+    "name": "PiTSi",
     "release_date": "To be announced"
   },
   {
@@ -260,11 +270,6 @@
     "release_date": "Coming soon"
   },
   {
-    "SteamID": 4457980,
-    "name": "Spurfall",
-    "release_date": "Coming soon"
-  },
-  {
     "SteamID": 4373500,
     "name": "Sub Rosa Tournament",
     "release_date": "Coming soon"
@@ -273,6 +278,11 @@
     "SteamID": 2509280,
     "name": "Swords And Shotguns",
     "release_date": "Coming soon"
+  },
+  {
+    "SteamID": 4677270,
+    "name": "Sync - Sink",
+    "release_date": "To be announced"
   },
   {
     "SteamID": 2284160,
